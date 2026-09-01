@@ -8,8 +8,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Beshemoth Slime",
@@ -19,8 +18,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Metal Slime Knight",
@@ -30,8 +28,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Metal Slime Knight",
@@ -41,8 +38,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Mottle King Slime",
@@ -54,8 +50,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Mottle King Slime",
@@ -65,8 +60,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Cureslime",
@@ -76,8 +70,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "King Slime",
@@ -87,8 +80,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Liquid Metal Slime",
@@ -98,8 +90,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Dark Slime Knight",
@@ -109,8 +100,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Dark Slime Knight",
@@ -120,8 +110,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "King Cureslime",
@@ -131,8 +120,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Rotten Egg",
@@ -142,8 +130,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "King Bubble Slime",
@@ -155,8 +142,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Metal Kaiser Slime",
@@ -168,8 +154,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Metal King Slime",
@@ -181,8 +166,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Canzar",
@@ -194,8 +178,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "3",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Darkonium Slime",
@@ -207,8 +190,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Grandpa Slime",
@@ -220,8 +202,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Shogum",
@@ -231,8 +212,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Diamond Slime",
@@ -244,8 +224,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Gem Slime",
@@ -257,8 +236,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Liquid Metal King Slime",
@@ -268,8 +246,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Drag Racer",
@@ -279,8 +256,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Drag Racer",
@@ -290,8 +266,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Green Dragon",
@@ -301,8 +276,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Metal Dragon",
@@ -312,8 +286,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Sea Dragon",
@@ -323,8 +296,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Sea Dragon",
@@ -334,8 +306,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Dragon Rider",
@@ -345,8 +316,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Dragon Rider",
@@ -356,8 +326,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Ethereal Serpent",
@@ -369,8 +338,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Frou-Frou",
@@ -382,8 +350,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Great Argon Lizard",
@@ -395,8 +362,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Mandrake Marshal",
@@ -406,8 +372,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Great Dragon",
@@ -417,8 +382,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Great Dragon",
@@ -428,8 +392,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Great Dragon",
@@ -439,8 +402,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Great Dragon",
@@ -450,8 +412,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Mechanowyrm",
@@ -461,8 +422,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Mechanowyrm",
@@ -472,8 +432,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Rashaverak",
@@ -485,8 +444,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Sintaur",
@@ -496,8 +454,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Sintaur",
@@ -507,8 +464,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Sintaur",
@@ -518,8 +474,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Sintaur",
@@ -529,8 +484,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Alabast Dragon",
@@ -540,8 +494,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Bilhaw",
@@ -551,8 +504,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Bilhaw",
@@ -562,8 +514,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Black Dragon",
@@ -573,8 +524,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Black Dragon",
@@ -584,8 +534,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Dracolord",
@@ -595,8 +544,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Drakulard",
@@ -606,8 +554,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Drakulard",
@@ -617,8 +564,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Drakulard",
@@ -628,8 +574,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Tri Winder",
@@ -639,8 +584,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Tri Winder",
@@ -650,8 +594,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Dragonlord",
@@ -661,8 +604,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Dragovian Lord",
@@ -672,8 +614,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Greygnarl",
@@ -683,8 +624,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Orochi",
@@ -696,8 +636,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Xenlon",
@@ -707,8 +646,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Xenlon",
@@ -718,8 +656,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Xenlon",
@@ -729,8 +666,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Xiphos",
@@ -740,8 +676,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Zenith Dragon",
@@ -751,8 +686,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Scissor Beatle",
@@ -762,8 +696,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "F",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Great Sabrecat",
@@ -775,8 +708,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Lleviathan",
@@ -786,8 +718,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "3",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Lleviathan",
@@ -797,8 +728,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "3",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Treeface",
@@ -810,8 +740,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "2",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Treeface",
@@ -823,8 +752,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "2",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Yabby",
@@ -834,8 +762,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Beetleboy",
@@ -847,8 +774,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Compos Mantis",
@@ -858,8 +784,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Flamethrower",
@@ -869,8 +794,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Blizzybody",
@@ -880,8 +804,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Garuda",
@@ -891,8 +814,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Gripevine",
@@ -902,8 +824,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Heligator",
@@ -913,8 +834,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Kon The Knight",
@@ -924,8 +844,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Riptide",
@@ -935,8 +854,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Riptide",
@@ -946,8 +864,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Riptide",
@@ -957,8 +874,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Beetlebully",
@@ -970,8 +886,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Beetlebully",
@@ -981,8 +896,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Goresby-Purrvis",
@@ -994,8 +908,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Khalamari",
@@ -1007,8 +920,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "3",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "King Squid",
@@ -1018,8 +930,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "King Squid",
@@ -1029,8 +940,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Prism Peacock",
@@ -1042,8 +952,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Prism Peacock",
@@ -1053,8 +962,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Great Godbird",
@@ -1064,8 +972,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Leopold",
@@ -1075,8 +982,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Leopold",
@@ -1086,8 +992,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Munchie",
@@ -1097,8 +1002,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Trode",
@@ -1110,8 +1014,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Yggdrasil",
@@ -1121,8 +1024,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Snowbird",
@@ -1132,8 +1034,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Snowbird",
@@ -1143,8 +1044,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Snowbird",
@@ -1154,8 +1054,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Diemon",
@@ -1167,8 +1066,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Mortoad",
@@ -1178,8 +1076,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Cockateer",
@@ -1189,8 +1086,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Eyevory Tusk-Tusk",
@@ -1200,8 +1096,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Eyevory Tusk-Tusk",
@@ -1211,8 +1106,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Eyevory Tusk-Tusk",
@@ -1222,8 +1116,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Firebird",
@@ -1233,8 +1126,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Pink Sanguini",
@@ -1246,8 +1138,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Tantamount",
@@ -1257,8 +1148,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Alphyn",
@@ -1268,8 +1158,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Buffalogre",
@@ -1281,8 +1170,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Gigantes",
@@ -1292,8 +1180,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Gigantes",
@@ -1303,8 +1190,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Goreham-Hogg",
@@ -1314,8 +1200,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Marquis De Léon",
@@ -1325,8 +1210,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Marquis De Léon",
@@ -1336,8 +1220,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Mohawker",
@@ -1347,8 +1230,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Mohawker",
@@ -1358,8 +1240,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Mohawker",
@@ -1369,8 +1250,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Moosifer",
@@ -1380,8 +1260,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Slon The Rook",
@@ -1391,8 +1270,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Taurus",
@@ -1402,8 +1280,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Atlas",
@@ -1415,8 +1292,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Atlas",
@@ -1426,8 +1302,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Atlas",
@@ -1437,8 +1312,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Baalzack",
@@ -1448,8 +1322,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Baalzack",
@@ -1459,8 +1332,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Baalzack",
@@ -1470,8 +1342,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Dhoulmagus",
@@ -1481,8 +1352,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Don Mole",
@@ -1494,8 +1364,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "King Sanguini",
@@ -1507,8 +1376,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Mossferatu",
@@ -1518,8 +1386,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Night Clubber",
@@ -1529,8 +1396,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Night Clubber",
@@ -1540,8 +1406,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Night Clubber",
@@ -1551,8 +1416,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Aquarion",
@@ -1562,8 +1426,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Pruslas",
@@ -1573,8 +1436,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Pruslas",
@@ -1584,8 +1446,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Pruslas",
@@ -1595,8 +1456,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Frostburn",
@@ -1606,8 +1466,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "F",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Frostburn",
@@ -1617,8 +1476,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "F",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Dancing Flame",
@@ -1628,8 +1486,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Dancing Flame",
@@ -1639,8 +1496,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Goodybag",
@@ -1650,8 +1506,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Cannibox",
@@ -1661,8 +1516,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Firn Fiend",
@@ -1672,8 +1526,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Gold Golem",
@@ -1683,8 +1536,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Gold Golem",
@@ -1694,8 +1546,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Cumulus Rex",
@@ -1705,8 +1556,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Golem",
@@ -1718,8 +1568,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Octagoon",
@@ -1729,8 +1578,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Puppeteer",
@@ -1740,8 +1588,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Automaton",
@@ -1751,8 +1598,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Corrupt Carter",
@@ -1764,8 +1610,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Magmalice",
@@ -1775,8 +1620,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Mimic",
@@ -1788,8 +1632,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Wishmaster",
@@ -1799,8 +1642,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Wishmaster",
@@ -1810,8 +1652,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Wishmaster",
@@ -1821,8 +1662,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Balhib",
@@ -1834,8 +1674,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Balhib",
@@ -1847,8 +1686,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Balhib",
@@ -1860,8 +1698,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Killing Machine",
@@ -1873,8 +1710,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Living Statue",
@@ -1886,8 +1722,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Scytheborg",
@@ -1897,8 +1732,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Terracotta Warrior",
@@ -1910,8 +1744,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Escudogre",
@@ -1921,8 +1754,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Escudogre",
@@ -1932,8 +1764,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Escudogre",
@@ -1943,8 +1774,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Mumboh-Jumboe",
@@ -1956,8 +1786,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Overkilling Machine",
@@ -1969,8 +1798,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Ruin",
@@ -1980,8 +1808,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Ruin",
@@ -1991,8 +1818,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Ruin",
@@ -2002,8 +1828,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Ruin",
@@ -2013,8 +1838,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "The Time Being",
@@ -2026,8 +1850,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Trap Box",
@@ -2039,8 +1862,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Trap Box",
@@ -2052,8 +1874,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Estark",
@@ -2063,8 +1884,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Psaro",
@@ -2074,8 +1894,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Sagittar",
@@ -2087,8 +1906,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Sagittar",
@@ -2100,8 +1918,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Sagittar",
@@ -2111,8 +1928,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Trauminator",
@@ -2122,8 +1938,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Great Dracky",
@@ -2135,8 +1950,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Grim Keeper",
@@ -2146,8 +1960,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Grim Keeper",
@@ -2157,8 +1970,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Grim Keeper",
@@ -2168,8 +1980,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Grim Keeper",
@@ -2179,8 +1990,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Archdemon",
@@ -2192,8 +2002,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Boss Troll",
@@ -2203,8 +2012,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Boss Troll",
@@ -2214,8 +2022,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Boss Troll",
@@ -2225,8 +2032,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Fallen Priest",
@@ -2236,8 +2042,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "High Djinks",
@@ -2247,8 +2052,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Jamirus",
@@ -2258,8 +2062,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Knight Aberrant",
@@ -2269,8 +2072,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Baron Von Bellycose",
@@ -2280,8 +2082,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Baron Von Bellycose",
@@ -2291,8 +2092,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Baron Von Bellycose",
@@ -2302,8 +2102,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Belial",
@@ -2315,8 +2114,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Belial",
@@ -2326,8 +2124,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Belial",
@@ -2337,8 +2134,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Conkettes",
@@ -2348,8 +2144,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Conkettes",
@@ -2359,8 +2154,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Dhuran",
@@ -2370,8 +2164,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Gemon",
@@ -2381,8 +2174,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Gemon",
@@ -2392,8 +2184,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Gemon",
@@ -2403,8 +2194,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Gracos",
@@ -2414,8 +2204,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Gracos",
@@ -2425,8 +2214,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Hootingham-Gore",
@@ -2436,8 +2224,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "King Korol",
@@ -2447,8 +2234,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "King Korol",
@@ -2458,8 +2244,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Pazuzu",
@@ -2471,8 +2256,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Pazuzu",
@@ -2482,8 +2266,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Pazuzu",
@@ -2493,8 +2276,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Aamon",
@@ -2504,8 +2286,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Aamon",
@@ -2515,8 +2296,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Baramos",
@@ -2526,8 +2306,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Baramos",
@@ -2537,8 +2316,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Blackmar",
@@ -2548,8 +2326,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Hargon",
@@ -2559,8 +2336,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Hargon",
@@ -2570,8 +2346,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Malroth",
@@ -2581,8 +2356,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Malroth",
@@ -2592,8 +2366,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Murdaw",
@@ -2603,8 +2376,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Murdaw",
@@ -2614,8 +2386,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Titanis",
@@ -2625,8 +2396,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Titanis",
@@ -2636,8 +2406,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Tyrannosaurus Wrecks",
@@ -2647,8 +2416,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Tyrannosaurus Wrecks",
@@ -2658,8 +2426,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Nokturnus",
@@ -2669,8 +2436,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Cobra Cardinal",
@@ -2680,8 +2446,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Fright Knight",
@@ -2691,8 +2456,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Grim Rider",
@@ -2702,8 +2466,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Grim Rider",
@@ -2713,8 +2476,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Grim Rider",
@@ -2724,8 +2486,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Phantom Swordsman",
@@ -2737,8 +2498,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Ragin' Contagion",
@@ -2748,8 +2508,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Skeleton Soldier",
@@ -2761,8 +2520,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Soulspawn",
@@ -2774,8 +2532,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Soulspawn",
@@ -2787,8 +2544,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Wight Knight",
@@ -2798,8 +2554,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Bone Baron",
@@ -2809,8 +2564,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Dierantula",
@@ -2820,8 +2574,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Dierantula",
@@ -2831,8 +2584,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Dierantula",
@@ -2842,8 +2594,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Gigalumph",
@@ -2853,8 +2604,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Grotwyrm",
@@ -2864,8 +2614,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Grotwyrm",
@@ -2875,8 +2624,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Kapurigon",
@@ -2886,8 +2634,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "2",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Monkey Zombie",
@@ -2897,8 +2644,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Monkey Zombie",
@@ -2908,8 +2654,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Night Knight",
@@ -2919,8 +2664,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Roseguardin",
@@ -2930,8 +2674,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Roseguardin",
@@ -2941,8 +2684,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Tortured Soul",
@@ -2952,8 +2694,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Tortured Soul",
@@ -2963,8 +2704,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Tortured Soul",
@@ -2974,8 +2714,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Tortured Soul",
@@ -2985,8 +2724,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Wailin' Weed",
@@ -2996,8 +2734,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Wailin' Weed",
@@ -3007,8 +2744,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Dullahan",
@@ -3018,8 +2754,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Dullahan",
@@ -3029,8 +2764,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Dullahan",
@@ -3040,8 +2774,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "King Godwyn II",
@@ -3053,8 +2786,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "3",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Ladja",
@@ -3064,8 +2796,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Wight King",
@@ -3075,8 +2806,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Wight King",
@@ -3086,8 +2816,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Dr Snapped",
@@ -3097,8 +2826,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Darck",
@@ -3108,8 +2836,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Ace Of Spades",
@@ -3119,8 +2846,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Baboon Beast",
@@ -3132,8 +2858,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Corvus",
@@ -3143,8 +2868,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Evil Beast",
@@ -3154,8 +2878,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Gadis",
@@ -3165,8 +2888,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Leonyx",
@@ -3176,8 +2898,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Magarugi",
@@ -3189,8 +2910,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Mortamor",
@@ -3200,8 +2920,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Mortamor",
@@ -3211,8 +2930,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Nimzo",
@@ -3222,8 +2940,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Nimzo",
@@ -3233,8 +2950,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Orgodemir",
@@ -3244,8 +2960,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Orgodemir",
@@ -3255,8 +2970,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Rhapthorne",
@@ -3268,8 +2982,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Rhapthorne II",
@@ -3279,8 +2992,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Rigor Mortex",
@@ -3290,8 +3002,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Wildcard",
@@ -3301,8 +3012,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Zoma",
@@ -3312,8 +3022,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Zoma",
@@ -3323,8 +3032,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "???",
-   "special": false
+   "family": "???"
   },
   {
    "result": "Weedie",
@@ -3334,8 +3042,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "F",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "King Slime",
@@ -3347,8 +3054,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Seedy Weedie",
@@ -3358,8 +3064,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Slime Gang",
@@ -3371,8 +3076,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "3",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Ultra Slime",
@@ -3384,8 +3088,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Nemeslime",
@@ -3397,8 +3100,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Schleiman Tank",
@@ -3410,8 +3112,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "3",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Slider Girl",
@@ -3423,8 +3124,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "2",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Slime Blaster",
@@ -3436,8 +3136,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "3",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Dark Mecha-Slime",
@@ -3449,8 +3148,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Slime",
-   "special": false
+   "family": "Slime"
   },
   {
    "result": "Barbarus",
@@ -3462,8 +3160,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Dimensional Dragon",
@@ -3475,8 +3172,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Dragon",
-   "special": false
+   "family": "Dragon"
   },
   {
    "result": "Wild Boarfish",
@@ -3486,8 +3182,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Wormonger",
@@ -3499,8 +3194,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "3",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Pipit",
@@ -3510,8 +3204,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Empyrea",
@@ -3523,8 +3216,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "3",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Elder Pipit",
@@ -3534,8 +3226,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Numen",
@@ -3545,8 +3236,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Nature",
-   "special": false
+   "family": "Nature"
   },
   {
    "result": "Teeny Sanguini",
@@ -3556,8 +3246,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Missing Lynx",
@@ -3569,8 +3258,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "3",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Maniacal Mole",
@@ -3580,8 +3268,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Bjorn",
@@ -3593,8 +3280,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "3",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Squign",
@@ -3606,8 +3292,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Robbin's Old Lady",
@@ -3619,8 +3304,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "2",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Fluffy",
@@ -3630,8 +3314,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Beast",
-   "special": false
+   "family": "Beast"
   },
   {
    "result": "Hunter Mech",
@@ -3641,8 +3324,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "C",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Stormsgate Citadel",
@@ -3652,8 +3334,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Uberkilling Machine",
@@ -3665,8 +3346,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Schwarzman Tank",
@@ -3678,8 +3358,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "Material",
-   "special": false
+   "family": "Material"
   },
   {
    "result": "Conklave",
@@ -3689,8 +3368,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "F",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Robbin' Huddle",
@@ -3700,8 +3378,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "D",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Robbin' Hood",
@@ -3711,8 +3388,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Prince O' Thieves",
@@ -3724,8 +3400,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Scruffy",
@@ -3735,8 +3410,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "Demon",
-   "special": false
+   "family": "Demon"
   },
   {
    "result": "Drohl Diabolist",
@@ -3746,8 +3420,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "E",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Captain Crow",
@@ -3759,8 +3432,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "S",
    "size": "1",
-   "family": "Zombie",
-   "special": false
+   "family": "Zombie"
   },
   {
    "result": "Leokid",
@@ -3770,8 +3442,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "B",
    "size": "1",
-   "family": "？？？",
-   "special": false
+   "family": "？？？"
   },
   {
    "result": "Stella",
@@ -3781,8 +3452,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "？？？",
-   "special": false
+   "family": "？？？"
   },
   {
    "result": "Zoma's Devil",
@@ -3792,8 +3462,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "A",
    "size": "1",
-   "family": "？？？",
-   "special": false
+   "family": "？？？"
   },
   {
    "result": "Malevolynx",
@@ -3803,8 +3472,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "3",
-   "family": "？？？",
-   "special": false
+   "family": "？？？"
   },
   {
    "result": "Wulfspade",
@@ -3814,4477 +3482,7 @@ const DQMJ2_DATA = {
    ],
    "rank": "SS / X",
    "size": "1",
-   "family": "？？？",
-   "special": false
-  },
-  {
-   "result": "Aamon",
-   "materials": [
-    "ClayNite",
-    "King Korol"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Aamon",
-   "materials": [
-    "Demon King",
-    "King Korol"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Abyss Diver",
-   "materials": [
-    "Seasaur",
-    "Undead Family"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Ace Of Spades",
-   "materials": [
-    "Leopold",
-    "Wulfspade Ace"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Aggrosculpture",
-   "materials": [
-    "Lesser Demon",
-    "Undead Family"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Alabast Dragon",
-   "materials": [
-    "Drakulard",
-    "Mechan-o-wyrm"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Anchorman",
-   "materials": [
-    "Demon Family",
-    "Dingaling"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Aquarion",
-   "materials": [
-    "Gracos",
-    "Nokturnus"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Archdemon",
-   "materials": [
-    "Dessert Demon",
-    "Dessert Demon",
-    "Dessert Demon",
-    "Dessert Demon"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Argon Lizard",
-   "materials": [
-    "Frou-Fry",
-    "Undead Family",
-    "Dessert Demon",
-    "Dessert Demon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "ArmorPede",
-   "materials": [
-    "Nature Family",
-    "Rockbomb",
-    "Dessert Demon",
-    "Dessert Demon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Atlas",
-   "materials": [
-    "Gigantes",
-    "Gigantes",
-    "Gigantes",
-    "Gigantes"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Atlas",
-   "materials": [
-    "Garuda",
-    "Gigantes",
-    "Gigantes",
-    "Gigantes"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Atlas",
-   "materials": [
-    "Gigantes",
-    "Moosifer",
-    "Gigantes",
-    "Gigantes"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Baalzack",
-   "materials": [
-    "Belial",
-    "Gigantes",
-    "Gigantes",
-    "Gigantes"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Baalzack",
-   "materials": [
-    "Drakularge",
-    "Gigantes",
-    "Gigantes",
-    "Gigantes"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Baalzack",
-   "materials": [
-    "Gigantes",
-    "Great Argon Lizard",
-    "Gigantes",
-    "Gigantes"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Balhib",
-   "materials": [
-    "Magmalice",
-    "Magmalice",
-    "Firn Fiend",
-    "Firn Fiend"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Balhib",
-   "materials": [
-    "Golem",
-    "Golem",
-    "Gold Golem",
-    "Gold Golem"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Balhib",
-   "materials": [
-    "Firn Fiend",
-    "Magmalice",
-    "Golem",
-    "Gold Golem"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Baramos",
-   "materials": [
-    "Beetlebully",
-    "Tortoceratops",
-    "Golem",
-    "Gold Golem"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Baramos",
-   "materials": [
-    "Time Sage",
-    "Tortoceratops",
-    "Golem",
-    "Gold Golem"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Barracuda",
-   "materials": [
-    "Dangler Fish",
-    "Slime Family",
-    "Golem",
-    "Gold Golem"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Battering Ram",
-   "materials": [
-    "Demon Family",
-    "Pan Piper",
-    "Golem",
-    "Gold Golem"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Beetleboy",
-   "materials": [
-    "Scissor Beetle",
-    "Scissor Beetle",
-    "Scissor Beetle",
-    "Scissor Beetle"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Beetlebully",
-   "materials": [
-    "Beetleboy",
-    "Beetleboy",
-    "Beetleboy",
-    "Beetleboy"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Beetlebully",
-   "materials": [
-    "Beetleboy",
-    "Metal King Slime",
-    "Beetleboy",
-    "Beetleboy"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Belial",
-   "materials": [
-    "Archdemon",
-    "Archdemon",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Belial",
-   "materials": [
-    "Archdemon",
-    "Balhib",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Belial",
-   "materials": [
-    "Archdemon",
-    "Great Dragon",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Beshemoth Slime",
-   "materials": [
-    "Behemoth Slime",
-    "She Slime",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "D",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Bilhaw",
-   "materials": [
-    "Balhib",
-    "Beetlebully",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Bilhaw",
-   "materials": [
-    "Balhib",
-    "Black Dragon",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Bishop Ladja",
-   "materials": [
-    "Kon",
-    "Slon",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Black Dragon",
-   "materials": [
-    "Bone Baron",
-    "Great Dragon",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Black Dragon",
-   "materials": [
-    "Gemon",
-    "Great Dragon",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Blackmar",
-   "materials": [
-    "Aamon",
-    "Bishop Ladja",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Blizzybody",
-   "materials": [
-    "Grim Keeper",
-    "Snowbird",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Boe",
-   "materials": [
-    "Boh",
-    "Nature Family",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Boe",
-   "materials": [
-    "Jum",
-    "Nature Family",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Boe",
-   "materials": [
-    "Mum",
-    "Nature Family",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Boh",
-   "materials": [
-    "Beast Family",
-    "Boe",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Boh",
-   "materials": [
-    "Beast Family",
-    "Jum",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Boh",
-   "materials": [
-    "Beast Family",
-    "Mum",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Bone Baron",
-   "materials": [
-    "Grim Rider",
-    "Grim Rider",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Boss Troll",
-   "materials": [
-    "Diemon",
-    "Gorerilla",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "B",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Boss Troll",
-   "materials": [
-    "Gorerilla",
-    "Inopp",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "B",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Boss Troll",
-   "materials": [
-    "Gorerilla",
-    "Notso-Macho",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "B",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Brownie",
-   "materials": [
-    "Hammerhood",
-    "Nature Family",
-    "Archdemon",
-    "Archdemon"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Buffalogre",
-   "materials": [
-    "Battering Ram",
-    "Battering Ram",
-    "Battering Ram",
-    "Battering Ram"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Cannibox",
-   "materials": [
-    "Bag O' Laughs",
-    "Rockbomb",
-    "Battering Ram",
-    "Battering Ram"
-   ],
-   "rank": "D",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Canzar",
-   "materials": [
-    "Gem Slime",
-    "Gem Slime",
-    "DarkCrab",
-    "DarkCrab"
-   ],
-   "rank": "S",
-   "size": "3",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Chargon",
-   "materials": [
-    "Argon Lizard",
-    "Komodo",
-    "DarkCrab",
-    "DarkCrab"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Chargon",
-   "materials": [
-    "Frou-Fry",
-    "Komodo",
-    "DarkCrab",
-    "DarkCrab"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Chariot Chappie",
-   "materials": [
-    "Chargon",
-    "Material Family",
-    "DarkCrab",
-    "DarkCrab"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "ClayNite",
-   "materials": [
-    "Pocus Poppet",
-    "Pocus Poppet",
-    "Pocus Poppet",
-    "Pocus Poppet"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Cobra Cardinal",
-   "materials": [
-    "Ethereal Serpent",
-    "Fallen Priest",
-    "Pocus Poppet",
-    "Pocus Poppet"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Cockateer",
-   "materials": [
-    "Hades Condor",
-    "Phantom Fencer",
-    "Pocus Poppet",
-    "Pocus Poppet"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Conkubines",
-   "materials": [
-    "Conklave",
-    "Scorpella",
-    "Pocus Poppet",
-    "Pocus Poppet"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Conkubines",
-   "materials": [
-    "Conklave",
-    "Virgella",
-    "Pocus Poppet",
-    "Pocus Poppet"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Corrupt Carter",
-   "materials": [
-    "Chariot Chappie",
-    "Chariot Chappie",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Corvus",
-   "materials": [
-    "King Godwyn",
-    "Magarugi",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "CragDevil",
-   "materials": [
-    "Nature Family",
-    "Snowbird",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Cumulus Rex",
-   "materials": [
-    "Dancing Flame",
-    "Frostburn",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Cureslime",
-   "materials": [
-    "Beshemoth Slime",
-    "Healslime",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Cyber Slime",
-   "materials": [
-    "Hunter Mech",
-    "Slime Family",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Dancing Flame",
-   "materials": [
-    "Firespirit",
-    "Frostburn",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "E",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Dancing Flame",
-   "materials": [
-    "Frostburn",
-    "Spitnik",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "E",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Dangler Fish",
-   "materials": [
-    "Demon Family",
-    "Wild Boarfish",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Darck",
-   "materials": [
-    "Blackmar",
-    "Murdaw",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Dark Slime",
-   "materials": [
-    "Prickly Prankster",
-    "Slime Family",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Dark Slime Knight",
-   "materials": [
-    "Dark Slime",
-    "Demon Rider",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Dark Slime Knight",
-   "materials": [
-    "Dark Slime",
-    "Slime Knight",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "DarkCrab",
-   "materials": [
-    "Crabid",
-    "Undead Family",
-    "Chariot Chappie",
-    "Chariot Chappie"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Darkonium Slime",
-   "materials": [
-    "Beshemoth Slime",
-    "Beshemoth Slime",
-    "Metal King Slime",
-    "Metal King Slime"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Demon King",
-   "materials": [
-    "Archdemon",
-    "High Djinks",
-    "Metal King Slime",
-    "Metal King Slime"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Demon King",
-   "materials": [
-    "Boss Troll",
-    "High Djinks",
-    "Metal King Slime",
-    "Metal King Slime"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Demon King",
-   "materials": [
-    "Fallen Priest",
-    "High Djinks",
-    "Metal King Slime",
-    "Metal King Slime"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Demon Rider",
-   "materials": [
-    "Demon Family",
-    "Green Dragon",
-    "Metal King Slime",
-    "Metal King Slime"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Dessert Demon",
-   "materials": [
-    "Beast Family",
-    "Imp",
-    "Metal King Slime",
-    "Metal King Slime"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Dhoulmagus",
-   "materials": [
-    "Alabast Dragon",
-    "Tyrannosaurus Wrecks",
-    "Metal King Slime",
-    "Metal King Slime"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Dhuran",
-   "materials": [
-    "Blizzybody",
-    "Flamethrower",
-    "Metal King Slime",
-    "Metal King Slime"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Diamond Slime",
-   "materials": [
-    "Gem Slime",
-    "Gem Slime",
-    "Darkonium Slime",
-    "Darkonium Slime"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Diemon",
-   "materials": [
-    "Winky",
-    "Winky",
-    "Winky",
-    "Winky"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Dierantula",
-   "materials": [
-    "Gripevine",
-    "Wiggly",
-    "Winky",
-    "Winky"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Dierantula",
-   "materials": [
-    "Night Knight",
-    "Wiggly",
-    "Winky",
-    "Winky"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Dierantula",
-   "materials": [
-    "Tortured Soul",
-    "Wiggly",
-    "Winky",
-    "Winky"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Don Mole",
-   "materials": [
-    "Mischievous Mole",
-    "Mischievous Mole",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Dr Snapped",
-   "materials": [
-    "Darkonium Slime",
-    "Murdaw",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Dragon Rider",
-   "materials": [
-    "Demon Rider",
-    "Drag-goof",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Dragon Rider",
-   "materials": [
-    "Drag-goof",
-    "Slime Knight",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Dragonlord",
-   "materials": [
-    "Demon-at-arms",
-    "Great Dragon",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Dragovian Lord",
-   "materials": [
-    "Dragonlord",
-    "Rhapthorne 2",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Dragurn",
-   "materials": [
-    "Jargon",
-    "Nature Family",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Drake Slime",
-   "materials": [
-    "Dragon Family",
-    "Slime",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Drakorpse",
-   "materials": [
-    "Great Dragon",
-    "Ragin' Contagion",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Drakorpse",
-   "materials": [
-    "Ragin' Contagion",
-    "Rashaverak",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Drakulard",
-   "materials": [
-    "Atlas",
-    "Drakularge",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Drakulard",
-   "materials": [
-    "Belial",
-    "Drakularge",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Drakulard",
-   "materials": [
-    "Drakularge",
-    "Pazuzu",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Dullahan",
-   "materials": [
-    "Bone Baron",
-    "Night Knight",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Dullahan",
-   "materials": [
-    "Bone Baron",
-    "Ruin",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Dullahan",
-   "materials": [
-    "Bone Baron",
-    "Tortured Soul",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Estark",
-   "materials": [
-    "Titanis",
-    "Xiphos",
-    "Night Clubber",
-    "Night Clubber"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Ethereal Serpent",
-   "materials": [
-    "Boreal Serpent",
-    "Boreal Serpent",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "B",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Evil Beast",
-   "materials": [
-    "Corvus",
-    "Sitting Lion Beast",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Eyevory Tusk-tusk",
-   "materials": [
-    "Diemon",
-    "Lleviathan",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Eyevory Tusk-tusk",
-   "materials": [
-    "Inopp",
-    "Lleviathan",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Eyevory Tusk-tusk",
-   "materials": [
-    "Lleviathan",
-    "Notso-Macho",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Fallen Priest",
-   "materials": [
-    "Puppeteer",
-    "Wrecktor",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Firebird",
-   "materials": [
-    "Dancing Flame",
-    "Hades Condor",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Firn Fiend",
-   "materials": [
-    "Golem",
-    "Snowbird",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "D",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Flamethrower",
-   "materials": [
-    "Firebird",
-    "Grim Keeper",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Foo Dog",
-   "materials": [
-    "Chainine",
-    "Nature Family",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Fright Knight",
-   "materials": [
-    "Lethal Armour",
-    "Skeleton Soldier",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Frostburn",
-   "materials": [
-    "Boreal Serpent",
-    "Dancing Flame",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "F",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Frostburn",
-   "materials": [
-    "Dancing Flame",
-    "Powie Yowie",
-    "Boreal Serpent",
-    "Boreal Serpent"
-   ],
-   "rank": "F",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Frou-Frou",
-   "materials": [
-    "Frou-Fry",
-    "Frou-Fry",
-    "Frou-Fry",
-    "Frou-Fry"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Frou-Fry",
-   "materials": [
-    "Argon Lizard",
-    "Beast Family",
-    "Frou-Fry",
-    "Frou-Fry"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Gadis",
-   "materials": [
-    "Sagittar",
-    "Xiphos",
-    "Frou-Fry",
-    "Frou-Fry"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Gamadius",
-   "materials": [
-    "Demon King",
-    "GigaMute",
-    "Frou-Fry",
-    "Frou-Fry"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Gargoyle",
-   "materials": [
-    "Lesser Demon",
-    "Material Family",
-    "Frou-Fry",
-    "Frou-Fry"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Garuda",
-   "materials": [
-    "Hades Condor",
-    "Heligator",
-    "Frou-Fry",
-    "Frou-Fry"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Gem Slime",
-   "materials": [
-    "Grandpa Slime",
-    "Grandpa Slime",
-    "Balhib",
-    "Balhib"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Gemon",
-   "materials": [
-    "Atlas",
-    "Jamirus",
-    "Balhib",
-    "Balhib"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Gemon",
-   "materials": [
-    "Belial",
-    "Jamirus",
-    "Balhib",
-    "Balhib"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Gemon",
-   "materials": [
-    "Jamirus",
-    "Pazuzu",
-    "Balhib",
-    "Balhib"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "GigaMute",
-   "materials": [
-    "Mortoad",
-    "Mortoad",
-    "Balhib",
-    "Balhib"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Gigantes",
-   "materials": [
-    "Boss Troll",
-    "Lleviathan",
-    "Balhib",
-    "Balhib"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Gigantes",
-   "materials": [
-    "Cross Eye",
-    "Lleviathan",
-    "Balhib",
-    "Balhib"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Gold Golem",
-   "materials": [
-    "Gem Slime",
-    "Golem",
-    "Balhib",
-    "Balhib"
-   ],
-   "rank": "D",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Gold Golem",
-   "materials": [
-    "Golem",
-    "Goodybag",
-    "Balhib",
-    "Balhib"
-   ],
-   "rank": "D",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Golem",
-   "materials": [
-    "Mud Mannequin",
-    "Mud Mannequin",
-    "Mud Mannequin",
-    "Mud Mannequin"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Goodybag",
-   "materials": [
-    "Bag O' Laughs",
-    "Bag O' Laughs",
-    "Mud Mannequin",
-    "Mud Mannequin"
-   ],
-   "rank": "E",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Goreham-Hogg",
-   "materials": [
-    "Mohawker",
-    "Slon",
-    "Mud Mannequin",
-    "Mud Mannequin"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Gorerilla",
-   "materials": [
-    "Killer Ape",
-    "Undead Family",
-    "Mud Mannequin",
-    "Mud Mannequin"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Goresby-Purrvis",
-   "materials": [
-    "Bishop Ladja",
-    "Great Sabrecat",
-    "Roseguardin",
-    "Demon-at-arms"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Gracos",
-   "materials": [
-    "Belial",
-    "Merman",
-    "Roseguardin",
-    "Demon-at-arms"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Gracos",
-   "materials": [
-    "Belial",
-    "Octavian Sentry",
-    "Roseguardin",
-    "Demon-at-arms"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Grandpa Slime",
-   "materials": [
-    "King Cure Slime",
-    "King Cure Slime",
-    "Metal Kaiser Slime",
-    "Metal Kaiser Slime"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Great Argon Lizard",
-   "materials": [
-    "Argon Lizard",
-    "Argon Lizard",
-    "Argon Lizard",
-    "Argon Lizard"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Great Dracky",
-   "materials": [
-    "Dracky",
-    "Dracky",
-    "Dracky",
-    "Dracky"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Great Dragon",
-   "materials": [
-    "Nodoph",
-    "Rashaverak",
-    "Dracky",
-    "Dracky"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Great Dragon",
-   "materials": [
-    "Rashaverak",
-    "Sintaur",
-    "Dracky",
-    "Dracky"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Great Dragon",
-   "materials": [
-    "Rashaverak",
-    "Tortoceratops",
-    "Dracky",
-    "Dracky"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Great Dragon",
-   "materials": [
-    "Rashaverak",
-    "Wishmaster",
-    "Dracky",
-    "Dracky"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Great Godbird",
-   "materials": [
-    "Dragovian Lord",
-    "Empyrea",
-    "Dracky",
-    "Dracky"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Great Sabrecat",
-   "materials": [
-    "Great Sabrecub",
-    "Great Sabrecub",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Green Dragon",
-   "materials": [
-    "Small Fry",
-    "Small Fry",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "E",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Greygnarl",
-   "materials": [
-    "Barbarus",
-    "Dragovian Lord",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Grim Keeper",
-   "materials": [
-    "Aggrosculpture",
-    "Erazor Blade",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Grim Keeper",
-   "materials": [
-    "Aggrosculpture",
-    "Gryphon",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Grim Keeper",
-   "materials": [
-    "Aggrosculpture",
-    "Octavian Sentry",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Grim Keeper",
-   "materials": [
-    "Aggrosculpture",
-    "Prickly Prankster",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Grim Rider",
-   "materials": [
-    "Demon Rider",
-    "Diemon",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Grim Rider",
-   "materials": [
-    "Demon Rider",
-    "Inopp",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Grim Rider",
-   "materials": [
-    "Demon Rider",
-    "Notso-Macho",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Gripevine",
-   "materials": [
-    "Hyper Heyedra",
-    "Marquis De Leon",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Gruffon",
-   "materials": [
-    "Demon Family",
-    "Jargon",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Hades Condor",
-   "materials": [
-    "Nature Family",
-    "Night Emperor",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Hargon",
-   "materials": [
-    "Dhuran",
-    "Dierantula",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Hargon",
-   "materials": [
-    "Dhuran",
-    "Wight King",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Harmour",
-   "materials": [
-    "Anchorman",
-    "Undead Family",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Heligator",
-   "materials": [
-    "Megalodon",
-    "Paws",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "High Djinks",
-   "materials": [
-    "Cumulus Rex",
-    "Malevolamp",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Hootingham Gore",
-   "materials": [
-    "Jamirus",
-    "Kon",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Jamirus",
-   "materials": [
-    "Grim Keeper",
-    "Gryphon",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Jargon",
-   "materials": [
-    "Argon Lizard",
-    "Nature Family",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Jargon",
-   "materials": [
-    "Frou-Fry",
-    "Nature Family",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Juggular",
-   "materials": [
-    "Beast Family",
-    "Dark Slime",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Kap",
-   "materials": [
-    "Garuda",
-    "Moosifer",
-    "Great Sabrecub",
-    "Great Sabrecub"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Khalimari",
-   "materials": [
-    "Khalimari Kid",
-    "Khalimari Kid",
-    "King Squid",
-    "King Squid"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Killing Machine",
-   "materials": [
-    "Hunter Mech",
-    "Hunter Mech",
-    "Hunter Mech",
-    "Hunter Mech"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "King Bubble Slime",
-   "materials": [
-    "Bubble Slime",
-    "Bubble Slime",
-    "King Slime",
-    "King Slime"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "King Cure Slime",
-   "materials": [
-    "King Slime",
-    "King Slime",
-    "King Slime",
-    "King Slime"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "King Godwyn",
-   "materials": [
-    "Goreham-Hogg",
-    "Hootingham Gore",
-    "Goresby-Purrvis",
-    "Barbarus"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "King Korol",
-   "materials": [
-    "Great Dragon",
-    "Tortured Soul",
-    "Goresby-Purrvis",
-    "Barbarus"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "King Korol",
-   "materials": [
-    "Rashaverak",
-    "Tortured Soul",
-    "Goresby-Purrvis",
-    "Barbarus"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "King Slime",
-   "materials": [
-    "Behemoth Slime",
-    "Behemoth Slime",
-    "Goresby-Purrvis",
-    "Barbarus"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "King Squid",
-   "materials": [
-    "GigaMute",
-    "Heligator",
-    "Goresby-Purrvis",
-    "Barbarus"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "King Squid",
-   "materials": [
-    "Gracos",
-    "Heligator",
-    "Goresby-Purrvis",
-    "Barbarus"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Kingy",
-   "materials": [
-    "Genie Sanguini",
-    "Pink Sanguini",
-    "Pipit",
-    "Elder Pipit"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Kon",
-   "materials": [
-    "Bone Baron",
-    "Mandrake Marshal",
-    "Pipit",
-    "Elder Pipit"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Leonyx",
-   "materials": [
-    "LeoKid",
-    "Wildcard",
-    "Pipit",
-    "Elder Pipit"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Leopold",
-   "materials": [
-    "Cerberus",
-    "Dhoulmagus",
-    "Pipit",
-    "Elder Pipit"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Leopold",
-   "materials": [
-    "Chainine",
-    "Dhoulmagus",
-    "Pipit",
-    "Elder Pipit"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Lesser Demon",
-   "materials": [
-    "Imp",
-    "Undead Family",
-    "Pipit",
-    "Elder Pipit"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Lethal Armour",
-   "materials": [
-    "Beast Family",
-    "Restless Armour",
-    "Pipit",
-    "Elder Pipit"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Liquid Metal King Slime",
-   "materials": [
-    "Diamond Slime",
-    "Slime Blaster",
-    "Pipit",
-    "Elder Pipit"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Liquid Metal Slime",
-   "materials": [
-    "Metal Slime",
-    "Metal Slime",
-    "Pipit",
-    "Elder Pipit"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Living Statue",
-   "materials": [
-    "Golem",
-    "Golem",
-    "Golem",
-    "Golem"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Lleviathan",
-   "materials": [
-    "Missing Lynx",
-    "Sea Dragon",
-    "Golem",
-    "Golem"
-   ],
-   "rank": "C",
-   "size": "3",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Lleviathan",
-   "materials": [
-    "Sea Dragon",
-    "Wiggly",
-    "Golem",
-    "Golem"
-   ],
-   "rank": "C",
-   "size": "3",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Mad Knight",
-   "materials": [
-    "Hacksaurus",
-    "Restless Armour",
-    "Golem",
-    "Golem"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Magarugi",
-   "materials": [
-    "Libranex",
-    "Orochi",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Magmalice",
-   "materials": [
-    "Firebird",
-    "Golem",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Malroth",
-   "materials": [
-    "Demon-at-arms",
-    "Hargon",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Malroth",
-   "materials": [
-    "Hargon",
-    "Khalimari",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Mandrake Marshal",
-   "materials": [
-    "Phantom Fencer",
-    "Red Dragon",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Marquis De Leon",
-   "materials": [
-    "Buffalogre",
-    "Mohawker",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Marquis De Leon",
-   "materials": [
-    "Eyevory Tusk-tusk",
-    "Eyevory Tusk-tusk",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Mechan-o-wyrm",
-   "materials": [
-    "Great Dragon",
-    "Metal Dragon",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Mechan-o-wyrm",
-   "materials": [
-    "Metal Dragon",
-    "Rashaverak",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Megalodon",
-   "materials": [
-    "Beast Family",
-    "Sea Dragon",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Metal Dragon",
-   "materials": [
-    "Hunter Mech",
-    "Red Dragon",
-    "Pruslas",
-    "Warubou"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Metal Kaiser Slime",
-   "materials": [
-    "Metal Slime Knight",
-    "Metal Slime Knight",
-    "King Cure Slime",
-    "King Cure Slime"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Metal King Slime",
-   "materials": [
-    "Liquid Metal Slime",
-    "Liquid Metal Slime",
-    "Liquid Metal Slime",
-    "Liquid Metal Slime"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Metal Slime Knight",
-   "materials": [
-    "Demon Rider",
-    "Metal Slime",
-    "Liquid Metal Slime",
-    "Liquid Metal Slime"
-   ],
-   "rank": "D",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Metal Slime Knight",
-   "materials": [
-    "Metal Slime",
-    "Slime Knight",
-    "Liquid Metal Slime",
-    "Liquid Metal Slime"
-   ],
-   "rank": "D",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Mimic",
-   "materials": [
-    "Cannibox",
-    "Cannibox",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Mohawker",
-   "materials": [
-    "Great Sabrecat",
-    "Wishmaster",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Mohawker",
-   "materials": [
-    "Sintaur",
-    "Wishmaster",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Mohawker",
-   "materials": [
-    "Wild Slime",
-    "Wishmaster",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Monkey Zombie",
-   "materials": [
-    "Gorerilla",
-    "Squign",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Monkey Zombie",
-   "materials": [
-    "Killer Ape",
-    "Squign",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Moosifer",
-   "materials": [
-    "Battering Ram",
-    "Buffalogre",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Mortamor",
-   "materials": [
-    "Psaro",
-    "Shield Ogre",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Mortamor",
-   "materials": [
-    "Psaro",
-    "Time Sage",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Mortoad",
-   "materials": [
-    "Frog Face",
-    "PomPom Bomb",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "C",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Mottle Slime",
-   "materials": [
-    "She Slime",
-    "Slime",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "E",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Mum",
-   "materials": [
-    "Boe",
-    "Material Family",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Mum",
-   "materials": [
-    "Boh",
-    "Material Family",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Mum",
-   "materials": [
-    "Jum",
-    "Material Family",
-    "Cannibox",
-    "Cannibox"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Mumboh-Jumboe",
-   "materials": [
-    "Boh",
-    "Mum",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Munchie",
-   "materials": [
-    "Fluffy",
-    "Greygnarl",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Murdaw",
-   "materials": [
-    "Bjorn",
-    "Gamadius",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Murdaw",
-   "materials": [
-    "Bjorn",
-    "Night Clubber",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Nardragon",
-   "materials": [
-    "Komodo",
-    "Material Family",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Night Clubber",
-   "materials": [
-    "Boss Troll",
-    "Drakularge",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Night Clubber",
-   "materials": [
-    "Boss Troll",
-    "Frou-Frou",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Night Clubber",
-   "materials": [
-    "Boss Troll",
-    "Pazuzu",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Night Knight",
-   "materials": [
-    "Fright Knight",
-    "Fright Knight",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Nimzo",
-   "materials": [
-    "Baramos",
-    "Gamadius",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Nimzo",
-   "materials": [
-    "Baramos",
-    "Khalimari",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Noble Gasbagon",
-   "materials": [
-    "Gasbagon",
-    "Nature Family",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Nodoph",
-   "materials": [
-    "Marquis De Leon",
-    "Moosifer",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Nokturnus",
-   "materials": [
-    "Dhuran",
-    "Dr Snapped",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Octagoon",
-   "materials": [
-    "Battering Ram",
-    "Foo Dog",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Orgodemir",
-   "materials": [
-    "Bilhaw",
-    "Tyrannosaurus Wrecks",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Orgodemir",
-   "materials": [
-    "Torai Wanda",
-    "Tyrannosaurus Wrecks",
-    "Jum",
-    "Boe"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Orochi",
-   "materials": [
-    "Torai Wanda",
-    "Torai Wanda",
-    "Bilhaw",
-    "Bilhaw"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Overkilling Machine",
-   "materials": [
-    "Balhib",
-    "Balhib",
-    "Killing Machine",
-    "Killing Machine"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Pan Piper",
-   "materials": [
-    "Nature Family",
-    "Satyr",
-    "Killing Machine",
-    "Killing Machine"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Panickle",
-   "materials": [
-    "ArmorPede",
-    "Scorpion",
-    "Killing Machine",
-    "Killing Machine"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Paws",
-   "materials": [
-    "Beast Family",
-    "Dangler Fish",
-    "Killing Machine",
-    "Killing Machine"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Pazuzu",
-   "materials": [
-    "Silvapithecus",
-    "Silvapithecus",
-    "Silvapithecus",
-    "Silvapithecus"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Pazuzu",
-   "materials": [
-    "Dierantula",
-    "Silvapithecus",
-    "Silvapithecus",
-    "Silvapithecus"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Pazuzu",
-   "materials": [
-    "Rashaverak",
-    "Silvapithecus",
-    "Silvapithecus",
-    "Silvapithecus"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Phantom Swordsman",
-   "materials": [
-    "Phantom Fencer",
-    "Phantom Fencer",
-    "Phantom Fencer",
-    "Phantom Fencer"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Pink Sanguini",
-   "materials": [
-    "Teeny Sanguini",
-    "Teeny Sanguini",
-    "Teeny Sanguini",
-    "Teeny Sanguini"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "PomPom Bomb",
-   "materials": [
-    "Cactiball",
-    "Undead Family",
-    "Teeny Sanguini",
-    "Teeny Sanguini"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Powie Yowie",
-   "materials": [
-    "Beast Family",
-    "Frostburn",
-    "Teeny Sanguini",
-    "Teeny Sanguini"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Prism Peacock",
-   "materials": [
-    "Firebird",
-    "Firebird",
-    "Snowbird",
-    "Snowbird"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Prism Peacock",
-   "materials": [
-    "Garuda",
-    "Pipit",
-    "Snowbird",
-    "Snowbird"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Protomech",
-   "materials": [
-    "Hunter Mech",
-    "Hunter Mech",
-    "Snowbird",
-    "Snowbird"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Pruslas",
-   "materials": [
-    "Alabast Dragon",
-    "Ruin",
-    "Snowbird",
-    "Snowbird"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Pruslas",
-   "materials": [
-    "Atlas",
-    "Ruin",
-    "Snowbird",
-    "Snowbird"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Pruslas",
-   "materials": [
-    "Drakulard",
-    "Ruin",
-    "Snowbird",
-    "Snowbird"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Psaro",
-   "materials": [
-    "Blackmar",
-    "Ruin",
-    "Snowbird",
-    "Snowbird"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Puppeteer",
-   "materials": [
-    "Lump Wizard",
-    "Slime",
-    "Snowbird",
-    "Snowbird"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Ragin' Contagion",
-   "materials": [
-    "Soulspawn",
-    "Walking Corpse",
-    "Snowbird",
-    "Snowbird"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Rashaverak",
-   "materials": [
-    "Great Argon Lizard",
-    "Great Argon Lizard",
-    "Frou-Frou",
-    "Frou-Frou"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Red Dragon",
-   "materials": [
-    "Beast Family",
-    "Green Dragon",
-    "Frou-Frou",
-    "Frou-Frou"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Restless Armour",
-   "materials": [
-    "Harmour",
-    "Undead Family",
-    "Frou-Frou",
-    "Frou-Frou"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Rhapthorne",
-   "materials": [
-    "Nimzo",
-    "Zoma",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Rhapthorne 2",
-   "materials": [
-    "Estark",
-    "Rhapthorne",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Rigor Mortex",
-   "materials": [
-    "Leonyx",
-    "Zenith Dragon",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Riptide",
-   "materials": [
-    "Beetleboy",
-    "Heligator",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Riptide",
-   "materials": [
-    "Heligator",
-    "Jumping Jackal",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Riptide",
-   "materials": [
-    "Heligator",
-    "Prickly Prankster",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Roseguardin",
-   "materials": [
-    "Bone Baron",
-    "Lethal Armour",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Roseguardin",
-   "materials": [
-    "Lethal Armour",
-    "Riptide",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Rotten Egg",
-   "materials": [
-    "Bad Egg",
-    "SpotKing",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Ruin",
-   "materials": [
-    "Gold Golem",
-    "Mumboh-Jumboe",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "S",
-   "size": "3",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Ruin",
-   "materials": [
-    "Gold Golem",
-    "Stormsgate Citadel",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "S",
-   "size": "3",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Ruin",
-   "materials": [
-    "Living Statue",
-    "Mumboh-Jumboe",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "S",
-   "size": "3",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Ruin",
-   "materials": [
-    "Living Statue",
-    "Stormsgate Citadel",
-    "Mortamor",
-    "Orgodemir"
-   ],
-   "rank": "S",
-   "size": "3",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Sagittar",
-   "materials": [
-    "Overkilling Machine",
-    "Trauminator",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Sagittar",
-   "materials": [
-    "UberKilling Machine",
-    "UberKilling Machine",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Scissor Beetle",
-   "materials": [
-    "ArmyAnt",
-    "Pocus Poppet",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Scorpion",
-   "materials": [
-    "Scissor Beetle",
-    "Undead Family",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Scytheborg",
-   "materials": [
-    "Cyber Slime",
-    "Juggular",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Sea Dragon",
-   "materials": [
-    "ArmorPede",
-    "Seasaur",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Sea Dragon",
-   "materials": [
-    "Eveel",
-    "Seasaur",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Shield Ogre",
-   "materials": [
-    "ClayNite",
-    "Scytheborg",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Shield Ogre",
-   "materials": [
-    "Living Statue",
-    "Scytheborg",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Shield Ogre",
-   "materials": [
-    "Scytheborg",
-    "Trap Box",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Shogum",
-   "materials": [
-    "Metal Kaiser Slime",
-    "Metal Kaiser Slime",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Slime",
-   "special": true
-  },
-  {
-   "result": "Sintaur",
-   "materials": [
-    "Dragon Rider",
-    "Mad Knight",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Sintaur",
-   "materials": [
-    "Drakularge",
-    "Mad Knight",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Sintaur",
-   "materials": [
-    "Mad Knight",
-    "Mandrake Marshal",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Sintaur",
-   "materials": [
-    "Mad Knight",
-    "Tortoceratops",
-    "Killing Machine",
-    "Trap Box"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Sitting Lion Beast",
-   "materials": [
-    "Aquarion",
-    "Monkey Zombie",
-    "Dark Leonyx",
-    "Ace Of Spades"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Skelegon",
-   "materials": [
-    "Green Dragon",
-    "Undead Family",
-    "Dark Leonyx",
-    "Ace Of Spades"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Skeleton Soldier",
-   "materials": [
-    "Skeleton",
-    "Skeleton",
-    "Skeleton",
-    "Skeleton"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Slime Knight",
-   "materials": [
-    "Demon Rider",
-    "Slime Family",
-    "Skeleton",
-    "Skeleton"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Slon",
-   "materials": [
-    "Buffalogre",
-    "Mandrake Marshal",
-    "Skeleton",
-    "Skeleton"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Snap Dragon",
-   "materials": [
-    "Dragonthorn",
-    "Undead Family",
-    "Skeleton",
-    "Skeleton"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Snowbird",
-   "materials": [
-    "Boreal Serpent",
-    "Florajay",
-    "Skeleton",
-    "Skeleton"
-   ],
-   "rank": "E",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Snowbird",
-   "materials": [
-    "Florajay",
-    "Powie Yowie",
-    "Skeleton",
-    "Skeleton"
-   ],
-   "rank": "E",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Snowbird",
-   "materials": [
-    "Florajay",
-    "Snowmangler",
-    "Skeleton",
-    "Skeleton"
-   ],
-   "rank": "E",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Snowmangler",
-   "materials": [
-    "Frostburn",
-    "Slime Family",
-    "Skeleton",
-    "Skeleton"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Soulspawn",
-   "materials": [
-    "Firespirit",
-    "Firespirit",
-    "Firespirit",
-    "Firespirit"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Soulspawn",
-   "materials": [
-    "Ghost",
-    "Ghost",
-    "Ghost",
-    "Ghost"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Spiked Hare",
-   "materials": [
-    "Nardragon",
-    "Nature Family",
-    "Ghost",
-    "Ghost"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "SpotKing",
-   "materials": [
-    "Mottle Slime",
-    "Mottle Slime",
-    "Mottle Slime",
-    "Mottle Slime"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "SpotKing",
-   "materials": [
-    "Behemoth Slime",
-    "Beshemoth Slime",
-    "Mottle Slime",
-    "Mottle Slime"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Tantamount",
-   "materials": [
-    "Firebird",
-    "Grim Rider",
-    "Mottle Slime",
-    "Mottle Slime"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Taurus",
-   "materials": [
-    "Buffalogre",
-    "Gigantes",
-    "Mottle Slime",
-    "Mottle Slime"
-   ],
-   "rank": "A",
-   "size": "2",
-   "family": "Beast",
-   "special": true
-  },
-  {
-   "result": "Time Sage",
-   "materials": [
-    "Fallen Priest",
-    "Fallen Priest",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Titanis",
-   "materials": [
-    "Atlas",
-    "Moosifer",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Titanis",
-   "materials": [
-    "Moosifer",
-    "Torai Wanda",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "S",
-   "size": "2",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Torai Wanda",
-   "materials": [
-    "Great Dragon",
-    "Octavian Sentry",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Torai Wanda",
-   "materials": [
-    "Octavian Sentry",
-    "Rashaverak",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Tortoceratops",
-   "materials": [
-    "Frou-Frou",
-    "Material Family",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Tortoceratops",
-   "materials": [
-    "Great Argon Lizard",
-    "Material Family",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Tortured Soul",
-   "materials": [
-    "Cobra Cardinal",
-    "Fright Knight",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Tortured Soul",
-   "materials": [
-    "Fright Knight",
-    "Ragin' Contagion",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Tortured Soul",
-   "materials": [
-    "Fright Knight",
-    "Wailing Weed",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Tortured Soul",
-   "materials": [
-    "Fright Knight",
-    "Wight Knight",
-    "Tortured Soul",
-    "Tortured Soul"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Trap Box",
-   "materials": [
-    "Mimic",
-    "Mimic",
-    "Cannibox",
-    "Metal Kaiser Slime"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Trauminator",
-   "materials": [
-    "Overkilling Machine",
-    "Ruin",
-    "Cannibox",
-    "Metal Kaiser Slime"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Treeface",
-   "materials": [
-    "Stump Chump",
-    "Stump Chump",
-    "Capsichum",
-    "Capsichum"
-   ],
-   "rank": "C",
-   "size": "2",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Trode",
-   "materials": [
-    "Darck",
-    "Don Mole",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Tyrannosaurus Wrecks",
-   "materials": [
-    "Hyperanemon",
-    "Kap",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Tyrannosaurus Wrecks",
-   "materials": [
-    "Hyperanemon",
-    "Taurus",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Demon",
-   "special": true
-  },
-  {
-   "result": "Tyrantosaurus",
-   "materials": [
-    "Hacksaurus",
-    "Material Family",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "",
-   "size": "",
-   "family": "",
-   "special": true
-  },
-  {
-   "result": "Wailin' Weed",
-   "materials": [
-    "King Kelp",
-    "Phantom Swordsman",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Wailin' Weed",
-   "materials": [
-    "King Kelp",
-    "Skeleton Soldier",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "A",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Wight King",
-   "materials": [
-    "King Bubble Slime",
-    "Tortured Soul",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Wight King",
-   "materials": [
-    "King Slime",
-    "Tortured Soul",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "S",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Wight Knight",
-   "materials": [
-    "Grim Rider",
-    "Phantom Swordsman",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "B",
-   "size": "1",
-   "family": "Zombie",
-   "special": true
-  },
-  {
-   "result": "Wildcard",
-   "materials": [
-    "Great Godbird",
-    "Wulfspade Ace",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Wishmaster",
-   "materials": [
-    "Diemon",
-    "Golem",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "B",
-   "size": "2",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Wishmaster",
-   "materials": [
-    "Golem",
-    "Inopp",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "B",
-   "size": "2",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Wishmaster",
-   "materials": [
-    "Golem",
-    "Notso-Macho",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "B",
-   "size": "2",
-   "family": "Material",
-   "special": true
-  },
-  {
-   "result": "Xenlon",
-   "materials": [
-    "Dimensional Dragon",
-    "Greygnarl",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Xenlon",
-   "materials": [
-    "Greygnarl",
-    "Prism Peacock",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Xenlon",
-   "materials": [
-    "Greygnarl",
-    "Yggdrasil",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "2",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Xiphos",
-   "materials": [
-    "Captain Crow",
-    "Nokturnus",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Yabby",
-   "materials": [
-    "Crabid",
-    "Crabid",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "C",
-   "size": "1",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Yggdrasil",
-   "materials": [
-    "Fluffy",
-    "Warubou",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Nature",
-   "special": true
-  },
-  {
-   "result": "Zenith Dragon",
-   "materials": [
-    "Dragonlord",
-    "Xenlon",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "3",
-   "family": "Dragon",
-   "special": true
-  },
-  {
-   "result": "Zoma",
-   "materials": [
-    "Dullahan",
-    "Malroth",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "???",
-   "special": true
-  },
-  {
-   "result": "Zoma",
-   "materials": [
-    "Malroth",
-    "Wight King",
-    "Warubou",
-    "Kingy"
-   ],
-   "rank": "SS / X",
-   "size": "1",
-   "family": "???",
-   "special": true
+   "family": "？？？"
   }
  ],
  "monsterIcons": {
@@ -8623,93 +3821,7 @@ const DQMJ2_DATA = {
   "Cross Bones": "https://var.minty.sbs/DQMJ2P/Icons/cross_bones.png",
   "Dorsal Fiend": "https://var.minty.sbs/DQMJ2P/Icons/dorsal_fiend.png",
   "Zoma's Devil": "https://var.minty.sbs/DQMJ2P/Icons/zomas_devil.png",
-  "Wulfspade": "https://var.minty.sbs/DQMJ2P/Icons/wulfspade.png",
-  "ClayNite": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/claynite.webp",
-  "Demon King": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/demon_king.webp",
-  "Abyss Diver": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/abyss_diver.webp",
-  "Undead Family": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/undead_family.webp",
-  "Lesser Demon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/lesser_demon.webp",
-  "Mechan-o-wyrm": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/mechan_o_wyrm.webp",
-  "Anchorman": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/anchorman.webp",
-  "Demon Family": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/demon_family.webp",
-  "Dingaling": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/dingaling.webp",
-  "ArmorPede": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/armorpede.webp",
-  "Nature Family": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/nature_family.webp",
-  "Time Sage": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/time_sage.webp",
-  "Barracuda": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/barracuda.webp",
-  "Dangler Fish": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/dangler_fish.webp",
-  "Slime Family": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/slime_family.webp",
-  "Battering Ram": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/battering_ram.webp",
-  "Pan Piper": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/pan_piper.webp",
-  "Scissor Beetle": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/scissor_beetle.webp",
-  "She Slime": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/she_slime.webp",
-  "Bishop Ladja": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/bishop_ladja.webp",
-  "Kon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/kon.webp",
-  "Slon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/slon.webp",
-  "Beast Family": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/beast_family.webp",
-  "Inopp": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/inopp.webp",
-  "Notso-Macho": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/notso_macho.webp",
-  "Brownie": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/brownie.webp",
-  "Hammerhood": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/hammerhood.webp",
-  "DarkCrab": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/darkcrab.webp",
-  "Chargon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/chargon.webp",
-  "Material Family": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/material_family.webp",
-  "Conkubines": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/conkubines.webp",
-  "Scorpella": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/scorpella.webp",
-  "Virgella": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/virgella.webp",
-  "King Godwyn": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/king_godwyn.webp",
-  "CragDevil": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/cragdevil.webp",
-  "Demon Rider": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/demon_rider.webp",
-  "Wiggly": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/wiggly.webp",
-  "Demon-at-arms": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/demon_at_arms.webp",
-  "Rhapthorne 2": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/rhapthorne_2.webp",
-  "Dragurn": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/dragurn.webp",
-  "Jargon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/jargon.webp",
-  "Drake Slime": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/drake_slime.webp",
-  "Dragon Family": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/dragon_family.webp",
-  "Drakorpse": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/drakorpse.webp",
-  "Sitting Lion Beast": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/sitting_lion_beast.webp",
-  "Eyevory Tusk-tusk": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/eyevory_tusk_tusk.webp",
-  "Gamadius": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/gamadius.webp",
-  "GigaMute": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/gigamute.webp",
-  "Gargoyle": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/gargoyle.webp",
-  "Killer Ape": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/killer_ape.webp",
-  "King Cure Slime": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/king_cure_slime.webp",
-  "Nodoph": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/nodoph.webp",
-  "Marquis De Leon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/marquis_de_leon.webp",
-  "Gruffon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/gruffon.webp",
-  "Night Emperor": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/night_emperor.webp",
-  "Harmour": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/harmour.webp",
-  "Hootingham Gore": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/hootingham_gore.webp",
-  "Kap": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/kap.webp",
-  "Khalimari": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/khalimari.webp",
-  "Khalimari Kid": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/khalimari_kid.webp",
-  "Kingy": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/kingy.webp",
-  "LeoKid": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/leokid.webp",
-  "Cerberus": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/cerberus.webp",
-  "Mad Knight": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/mad_knight.webp",
-  "Libranex": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/libranex.webp",
-  "Warubou": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/warubou.webp",
-  "Shield Ogre": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/shield_ogre.webp",
-  "Frog Face": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/frog_face.webp",
-  "PomPom Bomb": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/pompom_bomb.webp",
-  "Nardragon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/nardragon.webp",
-  "Noble Gasbagon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/noble_gasbagon.webp",
-  "Gasbagon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/gasbagon.webp",
-  "Torai Wanda": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/torai_wanda.webp",
-  "Satyr": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/satyr.webp",
-  "Panickle": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/panickle.webp",
-  "Cactiball": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/cactiball.webp",
-  "Protomech": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/protomech.webp",
-  "SpotKing": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/spotking.webp",
-  "UberKilling Machine": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/uberkilling_machine.webp",
-  "ArmyAnt": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/armyant.webp",
-  "Dark Leonyx": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/dark_leonyx.webp",
-  "Skelegon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/skelegon.webp",
-  "Snap Dragon": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/snap_dragon.webp",
-  "Dragonthorn": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/dragonthorn.webp",
-  "Spiked Hare": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/spiked_hare.webp",
-  "Wailing Weed": "https://www.woodus.com/den/gallery/graphics/dqm5prods/monstericons/wailing_weed.webp"
+  "Wulfspade": "https://var.minty.sbs/DQMJ2P/Icons/wulfspade.png"
  },
  "skills": [
   {

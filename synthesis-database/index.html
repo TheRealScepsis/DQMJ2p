@@ -23,6 +23,7 @@
     </div>
     <nav class="tabs" role="tablist" aria-label="Database section">
       <button class="tab-btn active" data-tab="monsters" role="tab" aria-selected="true">Monster Synthesis</button>
+      <button class="tab-btn" data-tab="tree" role="tab" aria-selected="false">Synthesis Tree</button>
       <button class="tab-btn" data-tab="skills" role="tab" aria-selected="false">Skill Upgrades</button>
       <button class="tab-btn" data-tab="about" role="tab" aria-selected="false">About</button>
     </nav>
@@ -36,8 +37,7 @@
     <div class="panel-intro">
       <h2>Monster Synthesis Search</h2>
       <p>Search any monster to see every recipe that <strong>produces</strong> it, and every recipe where it is
-      used as a <strong>synthesis material</strong>. Works for normal formula syntheses and Professional's
-      Special-Only syntheses.</p>
+      used as a <strong>synthesis material</strong>.</p>
     </div>
 
     <div class="search-bar">
@@ -53,10 +53,10 @@
         <select id="rankFilter" aria-label="Filter by rank">
           <option value="">All ranks</option>
         </select>
-        <label class="toggle">
-          <input type="checkbox" id="specialToggle" checked>
-          <span>Include Special-Only synths</span>
-        </label>
+        <div class="view-toggle" role="group" aria-label="Result display">
+          <button type="button" class="view-toggle-btn active" data-view="card">Cards</button>
+          <button type="button" class="view-toggle-btn" data-view="list">List</button>
+        </div>
       </div>
     </div>
 
@@ -75,6 +75,37 @@
         <h3><span class="col-icon">🧬</span> Used as synthesis material <span id="countAsMaterial" class="count-badge">0</span></h3>
         <div id="asMaterialList" class="recipe-list"></div>
       </div>
+    </div>
+  </section>
+
+  <!-- TREE TAB -->
+  <section id="tab-tree" class="tab-panel">
+    <div class="panel-intro">
+      <h2>Synthesis Tree</h2>
+      <p>Search a monster to see a full ancestry tree: every monster combination — all the way back to
+      wild-caught base monsters — needed to synthesize it. Click any node to re-root the tree on that
+      monster. When a monster has more than one recipe, use the ↺ button on its node to switch which
+      combination is shown.</p>
+    </div>
+
+    <div class="search-bar">
+      <div class="search-input-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input id="treeSearch" type="search" placeholder="Search a monster to build its synthesis tree… e.g. Estark" autocomplete="off">
+        <button id="treeClear" class="clear-btn" type="button" aria-label="Clear search" hidden>✕</button>
+      </div>
+    </div>
+
+    <div id="treeSuggestions" class="tree-suggestions"></div>
+
+    <div id="treeEmptyState" class="empty-state">
+      <p>Start typing a monster name above — try <button class="suggest-chip" data-fill-tree="Estark">Estark</button>
+      <button class="suggest-chip" data-fill-tree="Liquid Metal King Slime">Liquid Metal King Slime</button>
+      <button class="suggest-chip" data-fill-tree="Orgodemir">Orgodemir</button></p>
+    </div>
+
+    <div id="treeWrap" class="tree-wrap" hidden>
+      <div id="treeContainer" class="tree"></div>
     </div>
   </section>
 
@@ -121,14 +152,13 @@
       <p>This is an unofficial fan reference for <strong>Dragon Quest Monsters: Joker 2 Professional</strong>
       (DS, Japan-only — commonly played via the English fan translation). It combines:</p>
       <ul>
-        <li><strong>678</strong> synthesis recipes (normal rank/family formula syntheses plus Special-Only combinations)</li>
+        <li><strong>333</strong> synthesis recipes (rank/family formula syntheses)</li>
         <li><strong>150</strong> skill upgrade combinations</li>
-        <li><strong>400+</strong> monster icons</li>
+        <li><strong>336</strong> monster icons</li>
       </ul>
-      <p>Source material was extracted from a Professional-specific synthesis export and from
-      <a href="https://www.woodus.com/den/games/dqm5ds/" target="_blank" rel="noopener">Dragon's Den</a>,
-      the long-standing Dragon Quest Monsters fansite (Special-Only Synthesizations and Skill Upgrade
-      Requirements pages for DQMJ2).</p>
+      <p>Monster synthesis recipes come from a Professional-specific synthesis export. Skill upgrade
+      combinations come from <a href="https://www.woodus.com/den/games/dqm5ds/" target="_blank" rel="noopener">Dragon's Den</a>,
+      the long-standing Dragon Quest Monsters fansite (Skill Upgrade Requirements page for DQMJ2).</p>
       <p>Data is static and searched entirely client-side — no server, no tracking.</p>
     </div>
   </section>

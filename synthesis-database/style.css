@@ -242,21 +242,34 @@ main {
   cursor: pointer;
 }
 
-.toggle {
+.view-toggle {
   display: flex;
-  align-items: center;
-  gap: 7px;
-  font-size: 13px;
-  color: var(--text-dim);
   background: var(--panel);
   border: 1px solid var(--border);
-  padding: 9px 12px;
   border-radius: 8px;
-  cursor: pointer;
-  user-select: none;
+  padding: 3px;
+  gap: 3px;
 }
 
-.toggle input { accent-color: var(--accent); cursor: pointer; }
+.view-toggle-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.view-toggle-btn:hover { color: var(--text); }
+
+.view-toggle-btn.active {
+  background: var(--accent);
+  color: #fff;
+}
 
 /* ---------- Empty state ---------- */
 
@@ -352,11 +365,6 @@ main {
   padding: 12px 14px;
 }
 
-.recipe-card.special {
-  border-color: #4a3a70;
-  background: linear-gradient(135deg, var(--panel) 0%, #221c3a 100%);
-}
-
 .recipe-top {
   display: flex;
   align-items: center;
@@ -410,15 +418,6 @@ main {
 .rank-s { background: var(--rank-s); color: #fff; }
 .rank-ss { background: var(--rank-ss); }
 
-.special-badge {
-  font-size: 10.5px;
-  font-weight: 700;
-  padding: 2px 7px;
-  border-radius: 999px;
-  background: var(--accent);
-  color: #fff;
-}
-
 .family-tag {
   font-size: 11px;
   color: var(--text-dim);
@@ -444,6 +443,46 @@ main {
   color: var(--gold);
   font-weight: 700;
   margin-right: 2px;
+}
+
+/* ---------- Recipe list (table) view ---------- */
+
+.table-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.recipe-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.recipe-table th {
+  text-align: left;
+  background: var(--panel-alt);
+  color: var(--text-dim);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 8px 10px;
+  position: sticky;
+  top: 0;
+}
+
+.recipe-table td {
+  padding: 8px 10px;
+  border-top: 1px solid var(--border);
+  background: var(--panel);
+  vertical-align: middle;
+}
+
+.recipe-table .materials-cell {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
 }
 
 /* skill cards */
@@ -496,6 +535,204 @@ main {
 
 .skill-pill.highlight .lvl {
   color: var(--gold-soft);
+}
+
+/* ---------- Synthesis tree ---------- */
+
+.tree-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.tree-wrap {
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 30px 20px;
+  background: radial-gradient(600px 300px at 50% 0%, rgba(143, 123, 255, 0.06), transparent);
+}
+
+.tree {
+  display: inline-block;
+  min-width: 100%;
+  text-align: center;
+}
+
+.tree ul {
+  padding-top: 24px;
+  position: relative;
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+
+.tree li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  position: relative;
+  padding: 24px 10px 0 10px;
+}
+
+.tree li::before,
+.tree li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 2px solid var(--border);
+  width: 50%;
+  height: 24px;
+}
+
+.tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 2px solid var(--border);
+}
+
+.tree li:only-child::before,
+.tree li:only-child::after {
+  display: none;
+}
+
+.tree li:only-child {
+  padding-top: 0;
+}
+
+.tree li:first-child::before,
+.tree li:last-child::after {
+  border: 0 none;
+}
+
+.tree li:last-child::before {
+  border-right: 2px solid var(--border);
+  border-radius: 0 6px 0 0;
+}
+
+.tree li:first-child::after {
+  border-radius: 6px 0 0 0;
+}
+
+.tree ul ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid var(--border);
+  width: 0;
+  height: 24px;
+}
+
+.tree-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 10px;
+  min-width: 108px;
+}
+
+.tree-node.base {
+  border-color: var(--rank-d);
+  background: linear-gradient(135deg, var(--panel) 0%, #14263a 100%);
+}
+
+.tree-node.cycle {
+  border-color: var(--rank-s);
+  opacity: 0.75;
+}
+
+.tree-node-main {
+  appearance: none;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--text);
+  padding: 0;
+}
+
+.tree-node-main img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  background: #0b0e19;
+  border-radius: 7px;
+  border: 1px solid var(--border);
+}
+
+.tree-node-main:hover img {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 2px rgba(232, 193, 101, 0.25);
+}
+
+.tree-node-name {
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tree-node-badges {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.base-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--rank-d);
+  color: #10131f;
+}
+
+.cycle-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--rank-s);
+  color: #fff;
+}
+
+.qty-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--gold);
+  color: #10131f;
+}
+
+.variant-btn {
+  appearance: none;
+  background: var(--panel-alt);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 10.5px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.variant-btn:hover {
+  color: var(--gold);
+  border-color: var(--gold);
 }
 
 /* ---------- About ---------- */
