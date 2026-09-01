@@ -24,6 +24,7 @@
     <nav class="tabs" role="tablist" aria-label="Database section">
       <button class="tab-btn active" data-tab="monsters" role="tab" aria-selected="true">Monster Synthesis</button>
       <button class="tab-btn" data-tab="tree" role="tab" aria-selected="false">Synthesis Tree</button>
+      <button class="tab-btn" data-tab="builder" role="tab" aria-selected="false">Builder</button>
       <button class="tab-btn" data-tab="skills" role="tab" aria-selected="false">Skill Upgrades</button>
       <button class="tab-btn" data-tab="about" role="tab" aria-selected="false">About</button>
     </nav>
@@ -125,6 +126,37 @@
     </div>
   </section>
 
+  <!-- BUILDER TAB -->
+  <section id="tab-builder" class="tab-panel">
+    <div class="panel-intro">
+      <h2>Synthesis Builder</h2>
+      <p>A compact, space-saving parts list for a monster's synthesis. Pick a monster to see just its
+      direct materials, then expand any material that's itself synthesized to reveal what <em>it's</em>
+      made of — only as deep as you actually want to go. A material with no recipe of its own (or one
+      that loops back into an earlier step) is simply something you catch in the wild instead.</p>
+    </div>
+
+    <div class="search-bar">
+      <div class="search-input-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input id="builderSearch" type="search" placeholder="Search a monster to build its synthesis kit… e.g. Estark" autocomplete="off">
+        <button id="builderClear" class="clear-btn" type="button" aria-label="Clear search" hidden>✕</button>
+      </div>
+    </div>
+
+    <div id="builderSuggestions" class="tree-suggestions"></div>
+
+    <div id="builderEmptyState" class="empty-state">
+      <p>Start typing a monster name above — try <button class="suggest-chip" data-fill-builder="Estark">Estark</button>
+      <button class="suggest-chip" data-fill-builder="Liquid Metal King Slime">Liquid Metal King Slime</button>
+      <button class="suggest-chip" data-fill-builder="Orgodemir">Orgodemir</button></p>
+    </div>
+
+    <div id="builderWrap" class="kit-wrap" hidden>
+      <div id="builderContainer" class="kit"></div>
+    </div>
+  </section>
+
   <!-- SKILLS TAB -->
   <section id="tab-skills" class="tab-panel">
     <div class="panel-intro">
@@ -175,6 +207,9 @@
       <p>Monster synthesis recipes come from a Professional-specific synthesis export. Skill upgrade
       combinations come from <a href="https://www.woodus.com/den/games/dqm5ds/" target="_blank" rel="noopener">Dragon's Den</a>,
       the long-standing Dragon Quest Monsters fansite (Skill Upgrade Requirements page for DQMJ2).</p>
+      <p><strong>Synthesis Tree</strong> renders a monster's full ancestry as a diagram or an outline;
+      <strong>Builder</strong> shows the same ancestry as a compact, collapsed-by-default parts list you
+      expand only where you want more detail.</p>
       <p>Data is static and searched entirely client-side — no server, no tracking.</p>
     </div>
   </section>

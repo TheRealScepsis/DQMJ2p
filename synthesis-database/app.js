@@ -233,6 +233,60 @@
     });
   });
 
+  // ---------- Shared monster-picker search (Tree + Builder) ----------
+
+  function setupMonsterPicker({ searchInput, clearBtn, suggestionsEl, emptyStateEl, hideOnSearch, onSelect, getCurrentRoot, onClear }) {
+    function run() {
+      const q = normalise(searchInput.value);
+      clearBtn.hidden = q.length === 0;
+
+      if (!q) {
+        suggestionsEl.innerHTML = "";
+        if (!getCurrentRoot()) {
+          emptyStateEl.hidden = false;
+          hideOnSearch.forEach((el) => (el.hidden = true));
+        }
+        return;
+      }
+
+      const exact = ALL_MONSTER_NAMES.find((n) => normalise(n) === q);
+      if (exact) {
+        onSelect(exact);
+        return;
+      }
+
+      const matches = ALL_MONSTER_NAMES.filter((n) => normalise(n).includes(q)).slice(0, 12);
+      suggestionsEl.innerHTML = matches.length
+        ? matches.map((n) => `<button type="button" class="suggest-chip" data-suggest="${escapeHtml(n)}">${escapeHtml(n)}</button>`).join("")
+        : `<div class="no-results">No monster matches “${escapeHtml(searchInput.value)}”.</div>`;
+      hideOnSearch.forEach((el) => (el.hidden = true));
+      emptyStateEl.hidden = true;
+    }
+
+    searchInput.addEventListener("input", run);
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        const q = normalise(searchInput.value);
+        const match = ALL_MONSTER_NAMES.find((n) => normalise(n) === q) ||
+          ALL_MONSTER_NAMES.find((n) => normalise(n).includes(q));
+        if (match) onSelect(match);
+      }
+    });
+    suggestionsEl.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-suggest]");
+      if (btn) onSelect(btn.dataset.suggest);
+    });
+    clearBtn.addEventListener("click", () => {
+      searchInput.value = "";
+      suggestionsEl.innerHTML = "";
+      clearBtn.hidden = true;
+      hideOnSearch.forEach((el) => (el.hidden = true));
+      emptyStateEl.hidden = false;
+      searchInput.focus();
+      onClear();
+    });
+  }
+
   // ---------- Synthesis tree ----------
 
   const treeSearch = document.getElementById("treeSearch");
@@ -288,12 +342,23 @@
     return { name, recipeIndex: idx, recipeCount: recipes.length, children, count };
   }
 
-  function nodeBadges(node) {
+  // catchable: label base/cycle endpoints as "obtain in the wild" (used by
+  // the Builder) instead of the more technical Base/loop badges the Tree
+  // diagram and outline use.
+  function nodeBadges(node, catchable) {
     const meta = MONSTER_META[node.name];
     const badges = [];
     if (meta && meta.rank) badges.push(`<span class="rank-badge ${rankClass(meta.rank)}">${escapeHtml(meta.rank)}</span>`);
-    if (node.isBase) badges.push(`<span class="base-badge">Base</span>`);
-    if (node.isCycle) badges.push(`<span class="cycle-badge">↺ loop</span>`);
+    if (node.isBase) {
+      badges.push(catchable
+        ? `<span class="catch-badge">🎣 Catchable</span>`
+        : `<span class="base-badge">Base</span>`);
+    }
+    if (node.isCycle) {
+      badges.push(catchable
+        ? `<span class="catch-badge">🎣 Catchable</span>`
+        : `<span class="cycle-badge">↺ loop</span>`);
+    }
     if (node.isTruncated) badges.push(`<span class="cycle-badge">…</span>`);
     if (node.count > 1) badges.push(`<span class="qty-badge">×${node.count}</span>`);
     return badges.join("");
@@ -446,60 +511,101 @@
 
   applyTreeViewMode();
 
-  function runTreeSearch() {
-    const q = normalise(treeSearch.value);
-    treeClear.hidden = q.length === 0;
-
-    if (!q) {
-      treeSuggestions.innerHTML = "";
-      if (!currentTreeRoot) {
-        treeEmptyState.hidden = false;
-        treeWrap.hidden = true;
-        treeToolbar.hidden = true;
-      }
-      return;
-    }
-
-    const exact = ALL_MONSTER_NAMES.find((n) => normalise(n) === q);
-    if (exact) {
-      renderTree(exact);
-      return;
-    }
-
-    const matches = ALL_MONSTER_NAMES.filter((n) => normalise(n).includes(q)).slice(0, 12);
-    treeSuggestions.innerHTML = matches.length
-      ? matches.map((n) => `<button type="button" class="suggest-chip" data-suggest="${escapeHtml(n)}">${escapeHtml(n)}</button>`).join("")
-      : `<div class="no-results">No monster matches “${escapeHtml(treeSearch.value)}”.</div>`;
-    treeWrap.hidden = true;
-    treeToolbar.hidden = true;
-    treeEmptyState.hidden = true;
-  }
-
-  treeSearch.addEventListener("input", runTreeSearch);
-  treeSearch.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-      const q = normalise(treeSearch.value);
-      const match = ALL_MONSTER_NAMES.find((n) => normalise(n) === q) ||
-        ALL_MONSTER_NAMES.find((n) => normalise(n).includes(q));
-      if (match) renderTree(match);
-    }
-  });
-  treeSuggestions.addEventListener("click", (e) => {
-    const btn = e.target.closest("[data-suggest]");
-    if (btn) renderTree(btn.dataset.suggest);
-  });
-  treeClear.addEventListener("click", () => {
-    treeSearch.value = "";
-    treeSuggestions.innerHTML = "";
-    currentTreeRoot = null;
-    treeClear.hidden = true;
-    treeWrap.hidden = true;
-    treeToolbar.hidden = true;
-    treeEmptyState.hidden = false;
-    treeSearch.focus();
+  setupMonsterPicker({
+    searchInput: treeSearch,
+    clearBtn: treeClear,
+    suggestionsEl: treeSuggestions,
+    emptyStateEl: treeEmptyState,
+    hideOnSearch: [treeWrap, treeToolbar],
+    onSelect: renderTree,
+    getCurrentRoot: () => currentTreeRoot,
+    onClear: () => { currentTreeRoot = null; },
   });
   document.querySelectorAll("[data-fill-tree]").forEach((btn) => {
     btn.addEventListener("click", () => renderTree(btn.dataset.fillTree));
+  });
+
+  // ---------- Synthesis builder ----------
+
+  const builderSearch = document.getElementById("builderSearch");
+  const builderClear = document.getElementById("builderClear");
+  const builderSuggestions = document.getElementById("builderSuggestions");
+  const builderEmptyState = document.getElementById("builderEmptyState");
+  const builderWrap = document.getElementById("builderWrap");
+  const builderContainer = document.getElementById("builderContainer");
+
+  let currentBuilderRoot = null;
+
+  function renderBuilderNode(node, isRoot) {
+    const icon = iconFor(node.name);
+    const img = icon ? `<img src="${icon}" alt="" loading="lazy">` : "";
+    const row = `
+        <button type="button" class="kit-name-btn" data-reroot="${escapeHtml(node.name)}">
+          ${img}
+          <span class="tree-node-name">${escapeHtml(node.name)}</span>
+        </button>
+        <span class="outline-badges">${nodeBadges(node, true)}</span>
+        ${nodeVariantBtn(node)}`;
+
+    if (!node.children || node.children.length === 0) {
+      return `<li class="kit-leaf">${row}</li>`;
+    }
+    // The root's own materials are opened automatically (that's the whole
+    // point of searching); everything deeper starts collapsed so the kit
+    // stays compact until you choose to drill into a specific branch.
+    return `<li>
+        <details${isRoot ? " open" : ""}>
+          <summary>${row}</summary>
+          <ul class="kit-list">${node.children.map((c) => renderBuilderNode(c, false)).join("")}</ul>
+        </details>
+      </li>`;
+  }
+
+  function renderBuilderTree(name) {
+    if (!MONSTER_ICONS[name]) return;
+    currentBuilderRoot = name;
+    const node = buildTreeNode(name, [], 0, 1);
+    builderContainer.innerHTML = `<ul class="kit-list root">${renderBuilderNode(node, true)}</ul>`;
+    builderWrap.hidden = false;
+    builderEmptyState.hidden = true;
+    builderSuggestions.innerHTML = "";
+    builderSearch.value = name;
+    builderClear.hidden = false;
+  }
+
+  builderContainer.addEventListener("click", (e) => {
+    const rerootBtn = e.target.closest("[data-reroot]");
+    if (rerootBtn) {
+      e.preventDefault();
+      e.stopPropagation();
+      renderBuilderTree(rerootBtn.dataset.reroot);
+      return;
+    }
+    const variantBtn = e.target.closest(".variant-btn");
+    if (variantBtn) {
+      e.preventDefault();
+      e.stopPropagation();
+      const name = variantBtn.dataset.variant;
+      const count = (RECIPES_BY_RESULT[name] || []).length;
+      if (count > 0) {
+        recipeChoice[name] = ((recipeChoice[name] || 0) + 1) % count;
+        renderBuilderTree(currentBuilderRoot);
+      }
+    }
+  });
+
+  setupMonsterPicker({
+    searchInput: builderSearch,
+    clearBtn: builderClear,
+    suggestionsEl: builderSuggestions,
+    emptyStateEl: builderEmptyState,
+    hideOnSearch: [builderWrap],
+    onSelect: renderBuilderTree,
+    getCurrentRoot: () => currentBuilderRoot,
+    onClear: () => { currentBuilderRoot = null; },
+  });
+  document.querySelectorAll("[data-fill-builder]").forEach((btn) => {
+    btn.addEventListener("click", () => renderBuilderTree(btn.dataset.fillBuilder));
   });
 
   // ---------- Skill search ----------

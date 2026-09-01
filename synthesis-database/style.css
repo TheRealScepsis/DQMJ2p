@@ -914,6 +914,124 @@ main {
   border-color: var(--gold);
 }
 
+.catch-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--rank-c);
+  color: #10131f;
+}
+
+/* ---------- Synthesis builder (compact "kit" view) ---------- */
+
+.kit-wrap {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  background: var(--panel);
+}
+
+.kit-list,
+.kit-list ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 20px;
+  border-left: 1px dashed var(--border);
+}
+
+.kit-list.root {
+  padding-left: 0;
+  border-left: none;
+}
+
+.kit-list li {
+  margin: 2px 0;
+}
+
+.kit-list summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 8px;
+  border-radius: 7px;
+}
+
+.kit-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.kit-list summary::before {
+  content: "▸";
+  color: var(--text-dim);
+  font-size: 9px;
+  flex-shrink: 0;
+  width: 9px;
+  transition: transform 0.15s ease;
+}
+
+.kit-list details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.kit-list summary:hover {
+  background: var(--panel-alt);
+}
+
+.kit-leaf {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 8px 5px 16px;
+}
+
+.kit-name-btn {
+  appearance: none;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--text);
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.kit-name-btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  background: #0b0e19;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.kit-name-btn:hover .tree-node-name {
+  color: var(--gold);
+}
+
+/* The searched-for monster's own row, made to stand out from its parts */
+.kit-list.root > li > details > summary,
+.kit-list.root > li.kit-leaf {
+  background: var(--panel-alt);
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.kit-list.root > li > details > summary .kit-name-btn img,
+.kit-list.root > li.kit-leaf .kit-name-btn img {
+  width: 28px;
+  height: 28px;
+}
+
 /* ---------- About ---------- */
 
 .about-card {
