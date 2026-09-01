@@ -239,12 +239,23 @@
   const treeClear = document.getElementById("treeClear");
   const treeSuggestions = document.getElementById("treeSuggestions");
   const treeEmptyState = document.getElementById("treeEmptyState");
+  const treeToolbar = document.getElementById("treeToolbar");
   const treeWrap = document.getElementById("treeWrap");
+  const treeZoomShell = document.getElementById("treeZoomShell");
   const treeContainer = document.getElementById("treeContainer");
+  const treeViewToggleBtns = document.querySelectorAll("[data-tree-view]");
+  const zoomControls = document.getElementById("zoomControls");
+  const zoomOutBtn = document.getElementById("zoomOut");
+  const zoomInBtn = document.getElementById("zoomIn");
+  const zoomFitBtn = document.getElementById("zoomFit");
+  const zoomLevelLabel = document.getElementById("zoomLevel");
 
   const recipeChoice = {};
   let currentTreeRoot = null;
   const MAX_TREE_DEPTH = 25;
+  const isNarrowScreen = window.matchMedia("(max-width: 700px)").matches;
+  let treeViewMode = isNarrowScreen ? "outline" : "diagram";
+  let zoomScale = 1;
 
   function buildTreeNode(name, path, depth, count) {
     if (depth > MAX_TREE_DEPTH) {
@@ -277,9 +288,7 @@
     return { name, recipeIndex: idx, recipeCount: recipes.length, children, count };
   }
 
-  function renderTreeNode(node) {
-    const icon = iconFor(node.name);
-    const img = icon ? `<img src="${icon}" alt="" loading="lazy">` : "";
+  function nodeBadges(node) {
     const meta = MONSTER_META[node.name];
     const badges = [];
     if (meta && meta.rank) badges.push(`<span class="rank-badge ${rankClass(meta.rank)}">${escapeHtml(meta.rank)}</span>`);
@@ -287,19 +296,26 @@
     if (node.isCycle) badges.push(`<span class="cycle-badge">↺ loop</span>`);
     if (node.isTruncated) badges.push(`<span class="cycle-badge">…</span>`);
     if (node.count > 1) badges.push(`<span class="qty-badge">×${node.count}</span>`);
+    return badges.join("");
+  }
 
-    const variantBtn = node.recipeCount > 1
+  function nodeVariantBtn(node) {
+    return node.recipeCount > 1
       ? `<button type="button" class="variant-btn" data-variant="${escapeHtml(node.name)}" title="Show a different recipe for this monster">⟲ ${node.recipeIndex + 1}/${node.recipeCount}</button>`
       : "";
+  }
 
+  function renderTreeNode(node) {
+    const icon = iconFor(node.name);
+    const img = icon ? `<img src="${icon}" alt="" loading="lazy">` : "";
     const nodeHtml = `
       <div class="tree-node${node.isBase ? " base" : ""}${node.isCycle || node.isTruncated ? " cycle" : ""}">
         <button type="button" class="tree-node-main" data-reroot="${escapeHtml(node.name)}">
           ${img}
           <span class="tree-node-name">${escapeHtml(node.name)}</span>
         </button>
-        <div class="tree-node-badges">${badges.join("")}</div>
-        ${variantBtn}
+        <div class="tree-node-badges">${nodeBadges(node)}</div>
+        ${nodeVariantBtn(node)}
       </div>`;
 
     if (!node.children || node.children.length === 0) {
@@ -308,26 +324,104 @@
     return `<li>${nodeHtml}<ul>${node.children.map(renderTreeNode).join("")}</ul></li>`;
   }
 
+  function renderOutlineNode(node) {
+    const icon = iconFor(node.name);
+    const img = icon ? `<img src="${icon}" alt="" loading="lazy">` : "";
+    const row = `
+        <button type="button" class="outline-name-btn" data-reroot="${escapeHtml(node.name)}">
+          ${img}
+          <span class="tree-node-name">${escapeHtml(node.name)}</span>
+        </button>
+        <span class="outline-badges">${nodeBadges(node)}</span>
+        ${nodeVariantBtn(node)}`;
+
+    if (!node.children || node.children.length === 0) {
+      return `<li class="outline-leaf">${row}</li>`;
+    }
+    return `<li>
+        <details open>
+          <summary>${row}</summary>
+          <ul class="tree-outline">${node.children.map(renderOutlineNode).join("")}</ul>
+        </details>
+      </li>`;
+  }
+
+  function applyTreeViewMode() {
+    treeViewToggleBtns.forEach((b) => b.classList.toggle("active", b.dataset.treeView === treeViewMode));
+    zoomControls.hidden = treeViewMode !== "diagram";
+    treeZoomShell.classList.toggle("outline-mode", treeViewMode === "outline");
+  }
+
+  const MIN_ZOOM = 0.15;
+  const MIN_AUTOFIT_ZOOM = 0.35;
+
+  function setZoom(scale) {
+    zoomScale = Math.max(MIN_ZOOM, Math.min(1, scale));
+    if (treeViewMode === "diagram") {
+      // Reset before measuring: the shell's own width/height from a
+      // previous zoom would otherwise constrain treeContainer's
+      // min-width:100% and reflow it narrower before we can read its
+      // true natural size.
+      treeZoomShell.style.width = "";
+      treeZoomShell.style.height = "";
+      treeContainer.style.transform = "none";
+      const w = treeContainer.offsetWidth;
+      const h = treeContainer.offsetHeight;
+      treeContainer.style.transform = `scale(${zoomScale})`;
+      treeZoomShell.style.width = w * zoomScale + "px";
+      treeZoomShell.style.height = h * zoomScale + "px";
+    }
+    zoomLevelLabel.textContent = Math.round(zoomScale * 100) + "%";
+  }
+
+  function fitTreeToWidth() {
+    treeZoomShell.style.width = "";
+    treeZoomShell.style.height = "";
+    treeContainer.style.transform = "none";
+    const naturalWidth = treeContainer.offsetWidth;
+    const available = treeWrap.clientWidth - 4;
+    const idealFit = naturalWidth > available ? available / naturalWidth : 1;
+    // Below this, text stops being legible - better to stay readable and
+    // let the wrap's horizontal scroll handle the rest of a very wide tree.
+    setZoom(Math.max(idealFit, MIN_AUTOFIT_ZOOM));
+  }
+
   function renderTree(name) {
     if (!MONSTER_ICONS[name]) return;
     currentTreeRoot = name;
     const node = buildTreeNode(name, [], 0, 1);
-    treeContainer.innerHTML = `<ul>${renderTreeNode(node)}</ul>`;
+    treeContainer.style.transform = "";
+    treeContainer.innerHTML = treeViewMode === "outline"
+      ? `<ul class="tree-outline root">${renderOutlineNode(node)}</ul>`
+      : `<ul class="tree-diagram">${renderTreeNode(node)}</ul>`;
+    applyTreeViewMode();
     treeWrap.hidden = false;
+    treeToolbar.hidden = false;
     treeEmptyState.hidden = true;
     treeSuggestions.innerHTML = "";
     treeSearch.value = name;
     treeClear.hidden = false;
+
+    if (treeViewMode === "diagram") {
+      fitTreeToWidth();
+    } else {
+      treeZoomShell.style.width = "";
+      treeZoomShell.style.height = "";
+    }
   }
 
   treeContainer.addEventListener("click", (e) => {
     const rerootBtn = e.target.closest("[data-reroot]");
     if (rerootBtn) {
+      e.preventDefault();
+      e.stopPropagation();
       renderTree(rerootBtn.dataset.reroot);
       return;
     }
     const variantBtn = e.target.closest(".variant-btn");
     if (variantBtn) {
+      e.preventDefault();
+      e.stopPropagation();
       const name = variantBtn.dataset.variant;
       const count = (RECIPES_BY_RESULT[name] || []).length;
       if (count > 0) {
@@ -336,6 +430,21 @@
       }
     }
   });
+
+  treeViewToggleBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (treeViewMode === btn.dataset.treeView) return;
+      treeViewMode = btn.dataset.treeView;
+      if (currentTreeRoot) renderTree(currentTreeRoot);
+      else applyTreeViewMode();
+    });
+  });
+
+  zoomInBtn.addEventListener("click", () => setZoom(zoomScale + 0.1));
+  zoomOutBtn.addEventListener("click", () => setZoom(zoomScale - 0.1));
+  zoomFitBtn.addEventListener("click", fitTreeToWidth);
+
+  applyTreeViewMode();
 
   function runTreeSearch() {
     const q = normalise(treeSearch.value);
@@ -346,6 +455,7 @@
       if (!currentTreeRoot) {
         treeEmptyState.hidden = false;
         treeWrap.hidden = true;
+        treeToolbar.hidden = true;
       }
       return;
     }
@@ -361,6 +471,7 @@
       ? matches.map((n) => `<button type="button" class="suggest-chip" data-suggest="${escapeHtml(n)}">${escapeHtml(n)}</button>`).join("")
       : `<div class="no-results">No monster matches “${escapeHtml(treeSearch.value)}”.</div>`;
     treeWrap.hidden = true;
+    treeToolbar.hidden = true;
     treeEmptyState.hidden = true;
   }
 
@@ -383,6 +494,7 @@
     currentTreeRoot = null;
     treeClear.hidden = true;
     treeWrap.hidden = true;
+    treeToolbar.hidden = true;
     treeEmptyState.hidden = false;
     treeSearch.focus();
   });

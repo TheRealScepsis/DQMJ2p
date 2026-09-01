@@ -24,6 +24,10 @@
 
 * { box-sizing: border-box; }
 
+/* Guards the [hidden] attribute against being overridden by a later
+   `display` declaration on the same element (e.g. .zoom-controls). */
+[hidden] { display: none !important; }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -102,6 +106,14 @@ a { color: var(--blue); }
   padding: 4px;
   border-radius: 10px;
   border: 1px solid var(--border);
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .tab-btn {
@@ -116,6 +128,8 @@ a { color: var(--blue); }
   border-radius: 7px;
   cursor: pointer;
   transition: background 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .tab-btn:hover {
@@ -189,7 +203,8 @@ main {
   border: 1px solid var(--border);
   color: var(--text);
   font-family: inherit;
-  font-size: 15px;
+  /* 16px avoids iOS Safari auto-zooming the page on input focus */
+  font-size: 16px;
   padding: 13px 40px 13px 40px;
   border-radius: 10px;
   outline: none;
@@ -546,21 +561,86 @@ main {
   margin-bottom: 18px;
 }
 
+.tree-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.zoom-controls button {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.zoom-controls button:hover {
+  color: var(--text);
+  background: var(--panel-alt);
+}
+
+#zoomFit {
+  width: auto;
+  font-size: 11px;
+  padding: 0 10px;
+}
+
+.zoom-level {
+  font-size: 11px;
+  color: var(--text-dim);
+  min-width: 38px;
+  text-align: center;
+}
+
 .tree-wrap {
   overflow: auto;
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 30px 20px;
   background: radial-gradient(600px 300px at 50% 0%, rgba(143, 123, 255, 0.06), transparent);
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
 }
 
 .tree {
   display: inline-block;
   min-width: 100%;
   text-align: center;
+  transform-origin: top left;
 }
 
-.tree ul {
+.tree-zoom-shell.outline-mode {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.tree-zoom-shell.outline-mode .tree {
+  display: block;
+  text-align: left;
+}
+
+.tree-diagram {
   padding-top: 24px;
   position: relative;
   display: flex;
@@ -568,7 +648,7 @@ main {
   list-style: none;
 }
 
-.tree li {
+.tree-diagram li {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -577,8 +657,8 @@ main {
   padding: 24px 10px 0 10px;
 }
 
-.tree li::before,
-.tree li::after {
+.tree-diagram li::before,
+.tree-diagram li::after {
   content: "";
   position: absolute;
   top: 0;
@@ -588,36 +668,36 @@ main {
   height: 24px;
 }
 
-.tree li::after {
+.tree-diagram li::after {
   right: auto;
   left: 50%;
   border-left: 2px solid var(--border);
 }
 
-.tree li:only-child::before,
-.tree li:only-child::after {
+.tree-diagram li:only-child::before,
+.tree-diagram li:only-child::after {
   display: none;
 }
 
-.tree li:only-child {
+.tree-diagram li:only-child {
   padding-top: 0;
 }
 
-.tree li:first-child::before,
-.tree li:last-child::after {
+.tree-diagram li:first-child::before,
+.tree-diagram li:last-child::after {
   border: 0 none;
 }
 
-.tree li:last-child::before {
+.tree-diagram li:last-child::before {
   border-right: 2px solid var(--border);
   border-radius: 0 6px 0 0;
 }
 
-.tree li:first-child::after {
+.tree-diagram li:first-child::after {
   border-radius: 6px 0 0 0;
 }
 
-.tree ul ul::before {
+.tree-diagram ul::before {
   content: "";
   position: absolute;
   top: 0;
@@ -625,6 +705,105 @@ main {
   border-left: 2px solid var(--border);
   width: 0;
   height: 24px;
+}
+
+.tree-diagram ul {
+  padding-top: 24px;
+  position: relative;
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+
+/* ---------- Outline (mobile-friendly) tree view ---------- */
+
+.tree-outline,
+.tree-outline ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.tree-outline.root {
+  padding-left: 0;
+}
+
+.tree-outline li {
+  margin: 2px 0;
+}
+
+.tree-outline summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 6px;
+  border-radius: 8px;
+}
+
+.tree-outline summary::-webkit-details-marker {
+  display: none;
+}
+
+.tree-outline summary::before {
+  content: "▸";
+  color: var(--text-dim);
+  font-size: 10px;
+  flex-shrink: 0;
+  width: 10px;
+  transition: transform 0.15s ease;
+}
+
+.tree-outline details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.tree-outline summary:hover {
+  background: var(--panel-alt);
+}
+
+.outline-leaf {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 6px 6px 18px;
+}
+
+.outline-name-btn {
+  appearance: none;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--text);
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.outline-name-btn img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  background: #0b0e19;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.outline-name-btn:hover .tree-node-name {
+  color: var(--gold);
+}
+
+.outline-badges {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .tree-node {
@@ -762,4 +941,72 @@ main {
   padding: 22px 16px 40px;
   color: var(--text-dim);
   font-size: 12px;
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 600px) {
+  .header-inner {
+    padding: 12px 14px;
+    gap: 10px;
+  }
+
+  .brand-icon {
+    font-size: 28px;
+  }
+
+  .brand-text h1 {
+    font-size: 17px;
+  }
+
+  main {
+    padding: 20px 14px 48px;
+  }
+
+  .panel-intro h2 {
+    font-size: 19px;
+  }
+
+  .panel-intro p {
+    font-size: 13px;
+  }
+
+  .search-bar {
+    gap: 10px;
+  }
+
+  .filters {
+    width: 100%;
+  }
+
+  .filters select {
+    flex: 1 1 auto;
+  }
+
+  .tree-wrap {
+    padding: 20px 10px;
+  }
+
+  .tree-node {
+    min-width: 84px;
+    padding: 6px 8px;
+  }
+
+  .tree-node-main img,
+  .outline-name-btn img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .tree-node-name {
+    font-size: 11px;
+  }
+
+  .tree-toolbar {
+    justify-content: flex-start;
+  }
+
+  .about-card {
+    padding: 18px 16px;
+  }
 }

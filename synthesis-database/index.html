@@ -83,9 +83,10 @@
     <div class="panel-intro">
       <h2>Synthesis Tree</h2>
       <p>Search a monster to see a full ancestry tree: every monster combination — all the way back to
-      wild-caught base monsters — needed to synthesize it. Click any node to re-root the tree on that
+      wild-caught base monsters — needed to synthesize it. Tap/click any node to re-root the tree on that
       monster. When a monster has more than one recipe, use the ↺ button on its node to switch which
-      combination is shown.</p>
+      combination is shown. On small screens, <strong>Outline</strong> view is usually easier to read than
+      the full diagram.</p>
     </div>
 
     <div class="search-bar">
@@ -104,8 +105,23 @@
       <button class="suggest-chip" data-fill-tree="Orgodemir">Orgodemir</button></p>
     </div>
 
+    <div id="treeToolbar" class="tree-toolbar" hidden>
+      <div class="view-toggle" role="group" aria-label="Tree display mode">
+        <button type="button" class="view-toggle-btn" data-tree-view="diagram">Diagram</button>
+        <button type="button" class="view-toggle-btn" data-tree-view="outline">Outline</button>
+      </div>
+      <div id="zoomControls" class="zoom-controls">
+        <button type="button" id="zoomOut" aria-label="Zoom out">−</button>
+        <span id="zoomLevel" class="zoom-level">100%</span>
+        <button type="button" id="zoomIn" aria-label="Zoom in">+</button>
+        <button type="button" id="zoomFit">Fit</button>
+      </div>
+    </div>
+
     <div id="treeWrap" class="tree-wrap" hidden>
-      <div id="treeContainer" class="tree"></div>
+      <div id="treeZoomShell" class="tree-zoom-shell">
+        <div id="treeContainer" class="tree"></div>
+      </div>
     </div>
   </section>
 

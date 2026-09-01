@@ -11,11 +11,13 @@ Live site: https://therealscepsis.github.io/DQMJ2p/
   - every recipe that **produces** it (the synthesis target), and
   - every recipe that uses it **as a material** anywhere in its ingredient list.
   - Filter by family and rank, and switch results between a card view and a compact list/table view.
-- **Synthesis Tree** — search a monster to render its full ancestry as a tree diagram: every monster
-  combination required, all the way back to wild-caught base monsters. Click any node to re-root the
-  tree on that monster, and use the ⟲ button on a node with multiple recipes to switch which
-  combination is shown. Materials repeated within a recipe (e.g. "Liquid Metal Slime ×4") are collapsed
-  into a single branch with a quantity badge instead of exploding into duplicate subtrees.
+- **Synthesis Tree** — search a monster to render its full ancestry, all the way back to wild-caught
+  base monsters. Two view modes: a visual **Diagram** (org-chart style, with zoom/fit controls for
+  wide trees) and a collapsible **Outline** (an indented, tap-to-expand list) that defaults to open on
+  small screens, since panning around a huge diagram on a phone is painful. Tap/click any node to
+  re-root the tree on that monster, and use the ⟲ button on a node with multiple recipes to switch
+  which combination is shown. Materials repeated within a recipe (e.g. "Liquid Metal Slime ×4") are
+  collapsed into a single branch with a quantity badge instead of exploding into duplicate subtrees.
 - **Skill Upgrade search** — search any skill and instantly see:
   - what combination of skills **creates** it, and
   - every upgraded skill that **requires it** as an ingredient skill (with the minimum level needed).
