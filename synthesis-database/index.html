@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DQMJ2 Professional — Synthesis &amp; Skill Database</title>
+<meta name="description" content="Searchable synthesis recipe and skill upgrade database for Dragon Quest Monsters: Joker 2 Professional.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon" aria-hidden="true">🐉</span>
+      <div class="brand-text">
+        <h1>DQMJ2 <span>Professional</span></h1>
+        <p>Synthesis &amp; Skill Database</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Database section">
+      <button class="tab-btn active" data-tab="monsters" role="tab" aria-selected="true">Monster Synthesis</button>
+      <button class="tab-btn" data-tab="skills" role="tab" aria-selected="false">Skill Upgrades</button>
+      <button class="tab-btn" data-tab="about" role="tab" aria-selected="false">About</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- MONSTERS TAB -->
+  <section id="tab-monsters" class="tab-panel active">
+    <div class="panel-intro">
+      <h2>Monster Synthesis Search</h2>
+      <p>Search any monster to see every recipe that <strong>produces</strong> it, and every recipe where it is
+      used as a <strong>synthesis material</strong>. Works for normal formula syntheses and Professional's
+      Special-Only syntheses.</p>
+    </div>
+
+    <div class="search-bar">
+      <div class="search-input-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input id="monsterSearch" type="search" placeholder="Search a monster name… e.g. Metal King Slime, Estark, Liquid Metal Slime" autocomplete="off">
+        <button id="monsterClear" class="clear-btn" type="button" aria-label="Clear search" hidden>✕</button>
+      </div>
+      <div class="filters">
+        <select id="familyFilter" aria-label="Filter by family">
+          <option value="">All families</option>
+        </select>
+        <select id="rankFilter" aria-label="Filter by rank">
+          <option value="">All ranks</option>
+        </select>
+        <label class="toggle">
+          <input type="checkbox" id="specialToggle" checked>
+          <span>Include Special-Only synths</span>
+        </label>
+      </div>
+    </div>
+
+    <div id="monsterEmptyState" class="empty-state">
+      <p>Start typing a monster name above — try <button class="suggest-chip" data-fill="Estark">Estark</button>
+      <button class="suggest-chip" data-fill="Liquid Metal King Slime">Liquid Metal King Slime</button>
+      <button class="suggest-chip" data-fill="Metal Kaiser Slime">Metal Kaiser Slime</button></p>
+    </div>
+
+    <div id="monsterResults" class="results-columns" hidden>
+      <div class="results-col">
+        <h3><span class="col-icon">🎯</span> Produced as a synthesis result <span id="countAsResult" class="count-badge">0</span></h3>
+        <div id="asResultList" class="recipe-list"></div>
+      </div>
+      <div class="results-col">
+        <h3><span class="col-icon">🧬</span> Used as synthesis material <span id="countAsMaterial" class="count-badge">0</span></h3>
+        <div id="asMaterialList" class="recipe-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS TAB -->
+  <section id="tab-skills" class="tab-panel">
+    <div class="panel-intro">
+      <h2>Skill Upgrade Search</h2>
+      <p>Search a skill to see what it combines <strong>from</strong>, and every upgraded skill that
+      <strong>requires it</strong> as an ingredient skill. Numbers in parentheses are the minimum skill level required.</p>
+    </div>
+
+    <div class="search-bar">
+      <div class="search-input-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input id="skillSearch" type="search" placeholder="Search a skill name… e.g. Dragon Lore, Fire Fighter, Uber Attack Boost" autocomplete="off">
+        <button id="skillClear" class="clear-btn" type="button" aria-label="Clear search" hidden>✕</button>
+      </div>
+    </div>
+
+    <div id="skillEmptyState" class="empty-state">
+      <p>Start typing a skill name above — try <button class="suggest-chip" data-fill-skill="Dragon Lore">Dragon Lore</button>
+      <button class="suggest-chip" data-fill-skill="Fire Fighter">Fire Fighter</button>
+      <button class="suggest-chip" data-fill-skill="Uber Attack Boost">Uber Attack Boost</button></p>
+    </div>
+
+    <div id="skillResults" class="results-columns" hidden>
+      <div class="results-col">
+        <h3><span class="col-icon">🎯</span> Created by combining <span id="countSkillResult" class="count-badge">0</span></h3>
+        <div id="skillAsResultList" class="recipe-list"></div>
+      </div>
+      <div class="results-col">
+        <h3><span class="col-icon">🧬</span> Used as an ingredient skill <span id="countSkillMaterial" class="count-badge">0</span></h3>
+        <div id="skillAsMaterialList" class="recipe-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT TAB -->
+  <section id="tab-about" class="tab-panel">
+    <div class="panel-intro">
+      <h2>About this database</h2>
+    </div>
+    <div class="about-card">
+      <p>This is an unofficial fan reference for <strong>Dragon Quest Monsters: Joker 2 Professional</strong>
+      (DS, Japan-only — commonly played via the English fan translation). It combines:</p>
+      <ul>
+        <li><strong>678</strong> synthesis recipes (normal rank/family formula syntheses plus Special-Only combinations)</li>
+        <li><strong>150</strong> skill upgrade combinations</li>
+        <li><strong>400+</strong> monster icons</li>
+      </ul>
+      <p>Source material was extracted from a Professional-specific synthesis export and from
+      <a href="https://www.woodus.com/den/games/dqm5ds/" target="_blank" rel="noopener">Dragon's Den</a>,
+      the long-standing Dragon Quest Monsters fansite (Special-Only Synthesizations and Skill Upgrade
+      Requirements pages for DQMJ2).</p>
+      <p>Data is static and searched entirely client-side — no server, no tracking.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Fan-made reference tool · Dragon Quest Monsters: Joker 2 Professional · Not affiliated with Square Enix</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
