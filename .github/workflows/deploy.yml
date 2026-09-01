@@ -3,7 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main", "claude/dqmj2-synthesis-database-i4zxju"]
-    paths: ["synthesis-database/**"]
   workflow_dispatch:
 
 permissions:
