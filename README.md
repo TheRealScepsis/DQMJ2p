@@ -6,6 +6,6 @@
 web app for **Dragon Quest Monsters: Joker 2 Professional** covering synthesis recipes
 and skill upgrade combinations.
 
-**Live:** https://therealscepsis.github.io/dqmj2p/
+**Live:** https://therealscepsis.github.io/DQMJ2p/
 
 See [`synthesis-database/README.md`](./synthesis-database/README.md) for details.

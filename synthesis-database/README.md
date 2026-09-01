@@ -3,7 +3,7 @@
 A static, client-side searchable reference for **Dragon Quest Monsters: Joker 2 Professional**
 (Nintendo DS, Japan-only — commonly played via the English fan translation).
 
-Live site: https://therealscepsis.github.io/dqmj2p/
+Live site: https://therealscepsis.github.io/DQMJ2p/
 
 ## What it does
 
