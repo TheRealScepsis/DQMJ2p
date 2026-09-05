@@ -555,13 +555,19 @@
         <span class="outline-badges">${nodeBadges(node, true)}</span>
         ${nodeVariantBtn(node)}`;
 
+    // data-name/data-count let a variant switch walk back up the DOM to
+    // rebuild this node's exact path/depth/count later, so only this one
+    // node needs to be touched instead of re-rendering the whole kit.
+    const nameAttr = escapeHtml(node.name);
+    const countAttr = node.count || 1;
+
     if (!node.children || node.children.length === 0) {
-      return `<li class="kit-leaf">${row}</li>`;
+      return `<li class="kit-leaf" data-name="${nameAttr}" data-count="${countAttr}">${row}</li>`;
     }
     // The root's own materials are opened automatically (that's the whole
     // point of searching); everything deeper starts collapsed so the kit
     // stays compact until you choose to drill into a specific branch.
-    return `<li>
+    return `<li data-name="${nameAttr}" data-count="${countAttr}">
         <details${isRoot ? " open" : ""}>
           <summary>${row}</summary>
           <ul class="kit-list">${node.children.map((c) => renderBuilderNode(c, false)).join("")}</ul>
@@ -612,13 +618,42 @@
       e.preventDefault();
       e.stopPropagation();
       const name = variantBtn.dataset.variant;
-      const count = (RECIPES_BY_RESULT[name] || []).length;
-      if (count > 0) {
-        recipeChoice[name] = ((recipeChoice[name] || 0) + 1) % count;
-        renderBuilderTree(currentBuilderRoot);
+      const recipeCount = (RECIPES_BY_RESULT[name] || []).length;
+      if (recipeCount > 0) {
+        recipeChoice[name] = ((recipeChoice[name] || 0) + 1) % recipeCount;
+        updateBuilderNodeInPlace(variantBtn.closest("li"));
       }
     }
   });
+
+  // Rebuild and swap in just the one <li> whose recipe variant changed,
+  // instead of re-rendering the whole kit - so every other branch keeps
+  // whatever expanded/collapsed state the player already set up.
+  function updateBuilderNodeInPlace(li) {
+    if (!li) return;
+    const name = li.dataset.name;
+    const count = Number(li.dataset.count) || 1;
+
+    const path = [];
+    let ancestorLi = li.parentElement.closest("li");
+    while (ancestorLi) {
+      path.unshift(ancestorLi.dataset.name);
+      ancestorLi = ancestorLi.parentElement.closest("li");
+    }
+
+    const wasOpenEl = li.querySelector(":scope > details");
+    const wasOpen = wasOpenEl ? wasOpenEl.open : null;
+
+    const freshNode = buildTreeNode(name, path, path.length, count);
+    const wrapper = document.createElement("ul");
+    wrapper.innerHTML = renderBuilderNode(freshNode, false);
+    const newLi = wrapper.firstElementChild;
+
+    const newDetails = newLi.querySelector(":scope > details");
+    if (newDetails) newDetails.open = wasOpen === true;
+
+    li.replaceWith(newLi);
+  }
 
   builderBackBtn.addEventListener("click", () => {
     if (!builderHistory.length) return;
