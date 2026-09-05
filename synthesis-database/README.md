@@ -19,11 +19,16 @@ Live site: https://therealscepsis.github.io/DQMJ2p/
   which combination is shown. Materials repeated within a recipe (e.g. "Liquid Metal Slime ×4") are
   collapsed into a single branch with a quantity badge instead of exploding into duplicate subtrees.
 - **Builder** — the same ancestry as a compact "parts list": only the selected monster's direct
-  materials are shown at first, and everything deeper stays collapsed until you tap ▸ to expand a
-  specific branch. A material with no recipe of its own, or one that would loop back into an earlier
-  step, is marked 🎣 **Catchable** rather than forced open, since it's simplest to just catch that
-  monster in the wild. Much more space-efficient than the full Tree for a quick "what do I need next"
-  look, especially on a phone.
+  materials are shown at first, and everything deeper stays collapsed until you tap the (large,
+  thumb-friendly) ▸ arrow to expand a specific branch. A material with no recipe of its own, or one
+  that would loop back into an earlier step, is marked 🎣 **Catchable** rather than forced open, since
+  it's simplest to just catch that monster in the wild. Much more space-efficient than the full Tree
+  for a quick "what do I need next" look, especially on a phone. Tapping a monster's name re-roots the
+  kit onto it; a **← Back** button walks you back out again, one step at a time, to wherever you
+  started.
+- **All Monsters** — no search box, just the complete list: every synthesis recipe (with rank, family,
+  size, and materials) and every base monster that's simply caught in the wild, each in its own
+  sortable table — click a column header to sort by it.
 - **Skill Upgrade search** — search any skill and instantly see:
   - what combination of skills **creates** it, and
   - every upgraded skill that **requires it** as an ingredient skill (with the minimum level needed).

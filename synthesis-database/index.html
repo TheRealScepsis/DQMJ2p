@@ -25,6 +25,7 @@
       <button class="tab-btn active" data-tab="monsters" role="tab" aria-selected="true">Monster Synthesis</button>
       <button class="tab-btn" data-tab="tree" role="tab" aria-selected="false">Synthesis Tree</button>
       <button class="tab-btn" data-tab="builder" role="tab" aria-selected="false">Builder</button>
+      <button class="tab-btn" data-tab="catalog" role="tab" aria-selected="false">All Monsters</button>
       <button class="tab-btn" data-tab="skills" role="tab" aria-selected="false">Skill Upgrades</button>
       <button class="tab-btn" data-tab="about" role="tab" aria-selected="false">About</button>
     </nav>
@@ -153,7 +154,49 @@
     </div>
 
     <div id="builderWrap" class="kit-wrap" hidden>
+      <div id="builderBackRow" class="kit-back-row" hidden>
+        <button type="button" id="builderBackBtn" class="back-btn">← Back to <span id="builderBackName"></span></button>
+      </div>
       <div id="builderContainer" class="kit"></div>
+    </div>
+  </section>
+
+  <!-- CATALOG TAB -->
+  <section id="tab-catalog" class="tab-panel">
+    <div class="panel-intro">
+      <h2>All Monsters</h2>
+      <p>No search here — just the complete list. Every synthesis recipe, plus every monster with no
+      recipe of its own that's simply caught in the wild instead. Click a column header to sort.</p>
+    </div>
+
+    <h3 class="catalog-heading">Synthesized monsters <span id="catalogRecipeCount" class="count-badge">0</span></h3>
+    <div class="table-scroll">
+      <table class="recipe-table sortable-table" id="catalogRecipeTable">
+        <thead>
+          <tr>
+            <th data-sort="result">Result</th>
+            <th data-sort="rank">Rank</th>
+            <th data-sort="family">Family</th>
+            <th data-sort="size">Size</th>
+            <th>Materials</th>
+          </tr>
+        </thead>
+        <tbody id="catalogRecipeBody"></tbody>
+      </table>
+    </div>
+
+    <h3 class="catalog-heading">Base / catchable monsters <span id="catalogBaseCount" class="count-badge">0</span></h3>
+    <p class="catalog-subtext">These never appear as a synthesis result in this database — catch them in the wild instead.</p>
+    <div class="table-scroll">
+      <table class="recipe-table sortable-table" id="catalogBaseTable">
+        <thead>
+          <tr>
+            <th data-sort="name">Monster</th>
+            <th data-sort="usedIn">Used as material in</th>
+          </tr>
+        </thead>
+        <tbody id="catalogBaseBody"></tbody>
+      </table>
     </div>
   </section>
 
@@ -209,7 +252,8 @@
       the long-standing Dragon Quest Monsters fansite (Skill Upgrade Requirements page for DQMJ2).</p>
       <p><strong>Synthesis Tree</strong> renders a monster's full ancestry as a diagram or an outline;
       <strong>Builder</strong> shows the same ancestry as a compact, collapsed-by-default parts list you
-      expand only where you want more detail.</p>
+      expand only where you want more detail; <strong>All Monsters</strong> is a plain, sortable,
+      search-free list of every recipe and every catchable base monster.</p>
       <p>Data is static and searched entirely client-side — no server, no tracking.</p>
     </div>
   </section>

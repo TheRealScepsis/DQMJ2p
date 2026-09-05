@@ -5,7 +5,7 @@
   const MONSTER_ICONS = DQMJ2_DATA.monsterIcons;
   const SKILLS = DQMJ2_DATA.skills;
 
-  const RANK_ORDER = ["E", "D", "C", "B", "A", "S", "SS / X"];
+  const RANK_ORDER = ["F", "E", "D", "C", "B", "A", "S", "SS / X"];
 
   function rankClass(rank) {
     if (!rank) return "";
@@ -17,6 +17,7 @@
     if (r === "C") return "rank-c";
     if (r === "D") return "rank-d";
     if (r === "E") return "rank-e";
+    if (r === "F") return "rank-f";
     return "";
   }
 
@@ -533,8 +534,15 @@
   const builderEmptyState = document.getElementById("builderEmptyState");
   const builderWrap = document.getElementById("builderWrap");
   const builderContainer = document.getElementById("builderContainer");
+  const builderBackRow = document.getElementById("builderBackRow");
+  const builderBackBtn = document.getElementById("builderBackBtn");
+  const builderBackName = document.getElementById("builderBackName");
 
   let currentBuilderRoot = null;
+  // Stack of previously-viewed roots, pushed each time tapping a monster
+  // inside the kit re-roots it onto that monster - lets "Back" walk you
+  // out again, one step at a time, all the way to what you first searched.
+  let builderHistory = [];
 
   function renderBuilderNode(node, isRoot) {
     const icon = iconFor(node.name);
@@ -571,6 +579,21 @@
     builderSuggestions.innerHTML = "";
     builderSearch.value = name;
     builderClear.hidden = false;
+
+    if (builderHistory.length) {
+      builderBackRow.hidden = false;
+      builderBackName.textContent = builderHistory[builderHistory.length - 1];
+    } else {
+      builderBackRow.hidden = true;
+    }
+  }
+
+  // A fresh pick (search, suggestion, or example chip) starts a new
+  // exploration - the history only tracks re-roots made by tapping into
+  // the kit itself.
+  function selectBuilderRoot(name) {
+    builderHistory = [];
+    renderBuilderTree(name);
   }
 
   builderContainer.addEventListener("click", (e) => {
@@ -578,6 +601,9 @@
     if (rerootBtn) {
       e.preventDefault();
       e.stopPropagation();
+      if (currentBuilderRoot && rerootBtn.dataset.reroot !== currentBuilderRoot) {
+        builderHistory.push(currentBuilderRoot);
+      }
       renderBuilderTree(rerootBtn.dataset.reroot);
       return;
     }
@@ -594,19 +620,133 @@
     }
   });
 
+  builderBackBtn.addEventListener("click", () => {
+    if (!builderHistory.length) return;
+    const previous = builderHistory.pop();
+    renderBuilderTree(previous);
+  });
+
   setupMonsterPicker({
     searchInput: builderSearch,
     clearBtn: builderClear,
     suggestionsEl: builderSuggestions,
     emptyStateEl: builderEmptyState,
     hideOnSearch: [builderWrap],
-    onSelect: renderBuilderTree,
+    onSelect: selectBuilderRoot,
     getCurrentRoot: () => currentBuilderRoot,
-    onClear: () => { currentBuilderRoot = null; },
+    onClear: () => { currentBuilderRoot = null; builderHistory = []; },
   });
   document.querySelectorAll("[data-fill-builder]").forEach((btn) => {
-    btn.addEventListener("click", () => renderBuilderTree(btn.dataset.fillBuilder));
+    btn.addEventListener("click", () => selectBuilderRoot(btn.dataset.fillBuilder));
   });
+
+  // ---------- All Monsters catalog (no search - just sortable lists) ----------
+
+  const catalogRecipeTable = document.getElementById("catalogRecipeTable");
+  const catalogRecipeBody = document.getElementById("catalogRecipeBody");
+  const catalogRecipeCount = document.getElementById("catalogRecipeCount");
+  const catalogBaseTable = document.getElementById("catalogBaseTable");
+  const catalogBaseBody = document.getElementById("catalogBaseBody");
+  const catalogBaseCount = document.getElementById("catalogBaseCount");
+
+  const BASE_MONSTERS = (() => {
+    const usedInCount = {};
+    RECIPES.forEach((r) => {
+      new Set(r.materials).forEach((m) => {
+        usedInCount[m] = (usedInCount[m] || 0) + 1;
+      });
+    });
+    return ALL_MONSTER_NAMES
+      .filter((n) => !RECIPES_BY_RESULT[n])
+      .map((n) => ({ name: n, usedIn: usedInCount[n] || 0 }));
+  })();
+
+  function compareCatalog(a, b, field, dir) {
+    let av, bv;
+    if (field === "rank") {
+      av = RANK_ORDER.indexOf((a.rank || "").trim());
+      bv = RANK_ORDER.indexOf((b.rank || "").trim());
+    } else if (field === "size" || field === "usedIn") {
+      av = Number(a[field]) || 0;
+      bv = Number(b[field]) || 0;
+    } else {
+      av = String(a[field] || "").toLowerCase();
+      bv = String(b[field] || "").toLowerCase();
+    }
+    if (av < bv) return dir === "asc" ? -1 : 1;
+    if (av > bv) return dir === "asc" ? 1 : -1;
+    return 0;
+  }
+
+  function updateSortHeaders(table, field, dir) {
+    table.querySelectorAll("th[data-sort]").forEach((th) => {
+      th.classList.remove("sort-asc", "sort-desc");
+      if (th.dataset.sort === field) th.classList.add(dir === "asc" ? "sort-asc" : "sort-desc");
+    });
+  }
+
+  function catalogRecipeRow(r) {
+    const rankHtml = r.rank ? `<span class="rank-badge ${rankClass(r.rank)}">${escapeHtml(r.rank)}</span>` : "";
+    const materialsHtml = r.materials.map((m) => monChip(m, false)).join(`<span class="formula-plus">+</span>`);
+    return `<tr>
+        <td>${monChip(r.result, false)}</td>
+        <td>${rankHtml}</td>
+        <td>${r.family ? escapeHtml(r.family) : ""}</td>
+        <td>${r.size ? escapeHtml(r.size) : ""}</td>
+        <td class="materials-cell">${materialsHtml}</td>
+      </tr>`;
+  }
+
+  function catalogBaseRow(b) {
+    return `<tr>
+        <td>${monChip(b.name, false)}</td>
+        <td>${b.usedIn} recipe${b.usedIn === 1 ? "" : "s"}</td>
+      </tr>`;
+  }
+
+  let catalogRecipeSort = { field: "result", dir: "asc" };
+  let catalogBaseSort = { field: "name", dir: "asc" };
+
+  function renderCatalogRecipes() {
+    const sorted = RECIPES.slice().sort((a, b) => compareCatalog(a, b, catalogRecipeSort.field, catalogRecipeSort.dir));
+    catalogRecipeBody.innerHTML = sorted.map(catalogRecipeRow).join("");
+    catalogRecipeCount.textContent = sorted.length;
+    updateSortHeaders(catalogRecipeTable, catalogRecipeSort.field, catalogRecipeSort.dir);
+  }
+
+  function renderCatalogBase() {
+    const sorted = BASE_MONSTERS.slice().sort((a, b) => compareCatalog(a, b, catalogBaseSort.field, catalogBaseSort.dir));
+    catalogBaseBody.innerHTML = sorted.map(catalogBaseRow).join("");
+    catalogBaseCount.textContent = sorted.length;
+    updateSortHeaders(catalogBaseTable, catalogBaseSort.field, catalogBaseSort.dir);
+  }
+
+  catalogRecipeTable.querySelectorAll("th[data-sort]").forEach((th) => {
+    th.addEventListener("click", () => {
+      const field = th.dataset.sort;
+      if (catalogRecipeSort.field === field) {
+        catalogRecipeSort.dir = catalogRecipeSort.dir === "asc" ? "desc" : "asc";
+      } else {
+        catalogRecipeSort = { field, dir: "asc" };
+      }
+      renderCatalogRecipes();
+    });
+  });
+
+  catalogBaseTable.querySelectorAll("th[data-sort]").forEach((th) => {
+    th.addEventListener("click", () => {
+      const field = th.dataset.sort;
+      if (catalogBaseSort.field === field) {
+        catalogBaseSort.dir = catalogBaseSort.dir === "asc" ? "desc" : "asc";
+      } else {
+        catalogBaseSort = { field, dir: "asc" };
+      }
+      renderCatalogBase();
+    });
+  });
+
+  renderCatalogRecipes();
+  renderCatalogBase();
 
   // ---------- Skill search ----------
 

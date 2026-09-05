@@ -11,6 +11,7 @@
   --blue: #6fb3ef;
   --accent: #8f7bff;
 
+  --rank-f: #5c6270;
   --rank-e: #7a8095;
   --rank-d: #5fa8d3;
   --rank-c: #57b26a;
@@ -425,6 +426,7 @@ main {
   letter-spacing: 0.02em;
 }
 
+.rank-f { background: var(--rank-f); color: #fff; }
 .rank-e { background: var(--rank-e); }
 .rank-d { background: var(--rank-d); }
 .rank-c { background: var(--rank-c); }
@@ -498,6 +500,54 @@ main {
   flex-wrap: wrap;
   gap: 6px;
   align-items: center;
+}
+
+/* ---------- All Monsters catalog ---------- */
+
+.catalog-heading {
+  font-family: "Cinzel", serif;
+  font-size: 16px;
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 26px 0 6px;
+}
+
+.catalog-heading:first-of-type {
+  margin-top: 0;
+}
+
+.catalog-subtext {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+
+.sortable-table th[data-sort] {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable-table th[data-sort]:hover {
+  color: var(--text);
+}
+
+.sortable-table th[data-sort]::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  margin-left: 2px;
+}
+
+.sortable-table th.sort-asc::after {
+  content: "▲";
+  color: var(--gold);
+}
+
+.sortable-table th.sort-desc::after {
+  content: "▼";
+  color: var(--gold);
 }
 
 /* skill cards */
@@ -932,6 +982,29 @@ main {
   background: var(--panel);
 }
 
+.kit-back-row {
+  margin-bottom: 12px;
+}
+
+.back-btn {
+  appearance: none;
+  background: var(--panel-alt);
+  border: 1px solid var(--border);
+  color: var(--blue);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 .kit-list,
 .kit-list ul {
   list-style: none;
@@ -966,9 +1039,13 @@ main {
 .kit-list summary::before {
   content: "▸";
   color: var(--text-dim);
-  font-size: 9px;
+  font-size: 15px;
   flex-shrink: 0;
-  width: 9px;
+  width: 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition: transform 0.15s ease;
 }
 
@@ -984,7 +1061,7 @@ main {
   display: flex;
   align-items: center;
   gap: 7px;
-  padding: 5px 8px 5px 16px;
+  padding: 5px 8px 5px 26px;
 }
 
 .kit-name-btn {
@@ -1126,5 +1203,20 @@ main {
 
   .about-card {
     padding: 18px 16px;
+  }
+
+  /* Bigger, easier-to-tap expand arrows in the Builder on a phone. */
+  .kit-list summary::before {
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+  }
+
+  .kit-list summary {
+    padding: 8px;
+  }
+
+  .kit-leaf {
+    padding-left: 34px;
   }
 }
